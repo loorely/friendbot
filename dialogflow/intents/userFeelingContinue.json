@@ -1,0 +1,46 @@
+{
+  "id": "bfdd53a5-dd89-487e-8ba0-0ab48bba7ac2",
+  "name": "userFeelingContinue",
+  "auto": true,
+  "contexts": [
+    "introductionFollowUp"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "feelingFollowUp",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "How are you feeling today?",
+          "replies": [
+            "😀",
+            "😐",
+            "😔"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

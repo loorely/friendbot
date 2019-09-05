@@ -1,0 +1,48 @@
+{
+  "id": "f39e8807-16b5-49df-9197-42f182f6739d",
+  "name": "familyInformation",
+  "auto": true,
+  "contexts": [
+    "familyFollowUp"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "familyTrustFollowup",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "63405702-6cf3-427a-9e29-d3261fd08cbf",
+          "required": false,
+          "dataType": "@familyLiveWith",
+          "name": "familyLiveWith",
+          "value": "$familyLiveWith",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Thank you for sharing that with me. Can you tell me who do you trust the most in your family?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,47 @@
+{
+  "id": "2537a5a3-ca64-45f2-81e8-dc9c67855144",
+  "name": "goodBye",
+  "auto": true,
+  "contexts": [
+    "introductionFollowUp",
+    "familyFollowUp"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "8701524d-3c06-4f56-a2e6-dab0f7eecc0d",
+          "required": false,
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Well, it\u0027s fine. Let\u0027s talk tomorrow. You have a good day!",
+            "Talk to you tomorrow. Have a nice day!",
+            "See you tomorrow! Have a nice day"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,58 @@
+{
+  "id": "ec1ffccc-c10c-406f-9343-59a776135d7f",
+  "name": "familyTrustInformation",
+  "auto": true,
+  "contexts": [
+    "familyTrustFollowup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "friendFollowup",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "08ae81a1-ef6a-47d9-9112-0c880677f88d",
+          "required": false,
+          "dataType": "@familyTrust",
+          "name": "familyTrust",
+          "value": "$familyTrust",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Now I am going to ask you more things about your friends. Do you want to continue?",
+          "replies": [
+            "Yes 😜",
+            "No 🙄"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Very well! Thanks $given-name for trusting me"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

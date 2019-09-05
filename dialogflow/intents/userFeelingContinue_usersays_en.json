@@ -1,0 +1,26 @@
+[
+  {
+    "id": "05c5bc34-dd96-4b69-85ec-132eb59ec2de",
+    "data": [
+      {
+        "text": "Yes, let\u0027s talk",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "8c2cf795-b4b2-4856-8722-d5d15f127a9c",
+    "data": [
+      {
+        "text": "Yes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

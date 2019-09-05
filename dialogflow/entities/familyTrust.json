@@ -1,0 +1,9 @@
+{
+  "id": "1973a4dd-5fd3-498d-9c9f-0ffb5bdadd7c",
+  "name": "familyTrust",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

@@ -1,0 +1,9 @@
+{
+  "id": "2bf74a00-f98b-4d8c-afe6-33ef7653fb1d",
+  "name": "familyLiveWith",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

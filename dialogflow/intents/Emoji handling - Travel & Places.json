@@ -1,0 +1,27 @@
+{
+  "id": "bf3b42c3-13a7-455b-aa27-5b30fea01f8f",
+  "name": "Emoji handling - Travel \u0026 Places",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Sorry, I don\u0027t understand smiley language yet! Can we talk in English only? 😃🙏🏻"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

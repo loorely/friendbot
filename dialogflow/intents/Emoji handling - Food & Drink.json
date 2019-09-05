@@ -1,0 +1,27 @@
+{
+  "id": "36ef24e4-e6e1-4e6b-902d-cdccc64338ea",
+  "name": "Emoji handling - Food \u0026 Drink",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Sorry, I don\u0027t understand smiley language yet! Can we talk in English only? 😃🙏🏻"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

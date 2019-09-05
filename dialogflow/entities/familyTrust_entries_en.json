@@ -1,0 +1,49 @@
+[
+  {
+    "value": "alone",
+    "synonyms": [
+      "alone",
+      "just me",
+      "no one"
+    ]
+  },
+  {
+    "value": "father",
+    "synonyms": [
+      "dad",
+      "daddy",
+      "father"
+    ]
+  },
+  {
+    "value": "grandparents",
+    "synonyms": [
+      "grandma",
+      "grandpa",
+      "grandparents"
+    ]
+  },
+  {
+    "value": "mother",
+    "synonyms": [
+      "mammy",
+      "mom",
+      "mother"
+    ]
+  },
+  {
+    "value": "parents",
+    "synonyms": [
+      "mammy and daddy",
+      "mom and dad",
+      "parents"
+    ]
+  },
+  {
+    "value": "uncles",
+    "synonyms": [
+      "aunts",
+      "uncles"
+    ]
+  }
+]

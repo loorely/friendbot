@@ -1,0 +1,78 @@
+{
+  "id": "0bc907bd-cc74-4534-91d3-747017ec422b",
+  "name": "userGivenName",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "introductionFollowUp",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "80657af1-f720-4a13-8320-3efc4800274c",
+          "required": true,
+          "dataType": "@sys.given-name",
+          "name": "given-name",
+          "value": "$given-name",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Can you tell your name please?"
+            },
+            {
+              "lang": "en",
+              "value": "What\u0027s your name?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Before we start, I want to know if you can talk to me now?  Or your prefer to continue tomorrow?",
+          "replies": [
+            "Yes, let\u0027s talk",
+            "Not today, thanks"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Nice to meet you $given-name!"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "I want you to know that everything we talk about is private and totally secure, so you can trust me. We will not tell anyone that you are talking to me or the things we talk about.\nEvery day I will be talking to you to know how you feel, how your life is and to help you in whatever I can."
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "And it is also important that you know that I am not a child, I am a bot that can help you."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

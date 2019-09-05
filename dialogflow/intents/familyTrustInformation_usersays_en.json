@@ -1,0 +1,86 @@
+[
+  {
+    "id": "02e8ce3b-f1fb-45fc-bbd7-a86af53de140",
+    "data": [
+      {
+        "text": "grandma",
+        "alias": "familyTrust",
+        "meta": "@familyTrust",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "bf4b585a-f227-48a7-ab87-02410e6a6ab3",
+    "data": [
+      {
+        "text": "grandpa",
+        "alias": "familyTrust",
+        "meta": "@familyTrust",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a180b7a1-7cc3-4ebe-908e-48c7833c326e",
+    "data": [
+      {
+        "text": "aunts",
+        "alias": "familyTrust",
+        "meta": "@familyTrust",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a03047ee-8ce0-4214-88b1-be960c106a1c",
+    "data": [
+      {
+        "text": "parents",
+        "alias": "familyTrust",
+        "meta": "@familyTrust",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1e4b1f6f-f23f-4998-a743-f3bc38a234ee",
+    "data": [
+      {
+        "text": "daddy",
+        "alias": "familyTrust",
+        "meta": "@familyTrust",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2d0bc9ef-2d2b-48dd-9146-7bc7379e89c3",
+    "data": [
+      {
+        "text": "Mom",
+        "alias": "familyTrust",
+        "meta": "@familyTrust",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

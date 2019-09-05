@@ -1,0 +1,27 @@
+{
+  "id": "fcfbdd22-3551-4c57-8d6b-6c17e3434a1f",
+  "name": "Emoji handling - Activity",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Sorry, I don\u0027t understand smiley language yet! Can we talk in English only? 😃🙏🏻"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

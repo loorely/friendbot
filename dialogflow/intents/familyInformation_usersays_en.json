@@ -1,0 +1,146 @@
+[
+  {
+    "id": "6aac9f26-36af-4d36-a8fc-4d4aa2c0aa34",
+    "data": [
+      {
+        "text": "mom",
+        "alias": "familyLiveWith",
+        "meta": "@familyLiveWith",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "6c41806b-90c9-4b54-aa47-e30daf00d7e9",
+    "data": [
+      {
+        "text": "mammy",
+        "alias": "familyLiveWith",
+        "meta": "@familyLiveWith",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "86388f3e-d235-461c-a1cf-290bf2b42421",
+    "data": [
+      {
+        "text": "daddy",
+        "alias": "familyLiveWith",
+        "meta": "@familyLiveWith",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ca5bc574-9f3b-4da8-8634-e8ee133a9351",
+    "data": [
+      {
+        "text": "uncles",
+        "alias": "familyLiveWith",
+        "meta": "@familyLiveWith",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "485d6843-b642-43b2-ad92-eef0d117cecd",
+    "data": [
+      {
+        "text": "aunts",
+        "alias": "familyLiveWith",
+        "meta": "@familyLiveWith",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9ddae494-3c13-46df-88af-3a934b9435ea",
+    "data": [
+      {
+        "text": "just me",
+        "alias": "familyLiveWith",
+        "meta": "@familyLiveWith",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9b8ebb82-4f92-4e2a-a8be-d921604e71e5",
+    "data": [
+      {
+        "text": "alone",
+        "alias": "familyLiveWith",
+        "meta": "@familyLiveWith",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0cf11e30-f484-46e3-a548-8d39d0777d94",
+    "data": [
+      {
+        "text": "with my ",
+        "userDefined": false
+      },
+      {
+        "text": "parents",
+        "alias": "familyLiveWith",
+        "meta": "@familyLiveWith",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b6e43ac9-8be2-4522-993f-ea911dc499d7",
+    "data": [
+      {
+        "text": "dad",
+        "alias": "familyLiveWith",
+        "meta": "@familyLiveWith",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "25bd1274-71cf-417b-9391-6b43ce1f1228",
+    "data": [
+      {
+        "text": "mother",
+        "alias": "familyLiveWith",
+        "meta": "@familyLiveWith",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]
