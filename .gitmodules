@@ -1,0 +1,4 @@
+[submodule "flask/friendbot"]
+	path = flask/friendbot
+	url = git@github.com:wambu-i/friendbot.git
+	branch = master
