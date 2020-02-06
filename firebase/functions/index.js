@@ -1,43 +1,50 @@
 // See https://github.com/dialogflow/dialogflow-fulfillment-nodejs
 // for Dialogflow fulfillment library docs, samples, and to report issues
 'use strict';
- 
+
 const functions = require('firebase-functions');
 const admin = require('firebase-admin');
-const {WebhookClient} = require('dialogflow-fulfillment');
-const {Card, Suggestion} = require('dialogflow-fulfillment');
+const { WebhookClient } = require('dialogflow-fulfillment');
+const { Card, Suggestion } = require('dialogflow-fulfillment');
 
 admin.initializeApp(functions.config().firebase);
 const db = admin.firestore();
 
+//Call API
+const { promisify } = require('util');
+let graph = require('fbgraph'); // facebook graph library
+graph.setAccessToken('EAANSoP9p6GsBANZCcxTbPRwyKdK2gEQw5sruZCzKAVQ63754BcDSPgYzpKlhrG48ZAi4cBlPJoAMQvYi59DkfhPPMu0AOc7NeU83WBDZCKjj3gBMzc20jZCkYqtZCbKTwh8ZBk9LoC4VmZCffA2OGOQHOuQ3ZCLyfTI2cBJ9OmgMFNgZDZD');  // <--- your facebook page token
+graph.setVersion("3.2");
+
+const fbGraph = {
+  get: promisify(graph.get)
+}
+
 process.env.DEBUG = 'dialogflow:debug'; // enables lib debugging statements
- 
+
 exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, response) => {
   const agent = new WebhookClient({ request, response });
-  console.log('Dialogflow Request headers: ' + JSON.stringify(request.headers));
-  console.log('Dialogflow Request body: ' + JSON.stringify(request.body));
- 
-  function welcome(agent) {
-    agent.add(`Welcome to my agent!`);
-  }
- 
-  function fallback(agent) {
-    agent.add(`I didn't understand`);
-    agent.add(`I'm sorry, can you try again?`);
-  }
   
-  function writeToDb (agent) {
+  console.log('Dialogflow Request headers: ' + JSON.stringify(request.headers));
+  let senderId = request.body.originalDetectIntentRequest.payload.data.sender.id;
+  console.log('Dialogflow Request body: ' + JSON.stringify(request.body));
+
+  
+  function writeToDb(agent) {
     // Get parameter from Dialogflow with the string to add to the database
-   
+
     const givenName = agent.parameters.givenName;
- 	agent.add(`Encantado de conocerte ` + givenName);
+	
+    agent.add(`Encantado de conocerteee ` + senderId);
+	
+   
     agent.add(`Es importante que sepas que no soy un niño, soy una herramienta de ayuda para ti.`);
-    
+
     // Get the database collection 'dialogflow' and document 'agent' and store
     // the document  {entry: "<value of database entry>"} in the 'agent' document
-    const dialogflowAgentRef = db.collection('usuarios').doc('agent');
+    const dialogflowAgentRef = db.collection('usuarios').doc(senderId);
     return db.runTransaction(t => {
-      t.set(dialogflowAgentRef, {name: givenName});
+      t.set(dialogflowAgentRef, { name: givenName });
       return Promise.resolve('Write complete');
     }).then(doc => {
       agent.add(`Wrote "${givenName}" to the Firestore database.`);
