@@ -1,0 +1,50 @@
+[
+  {
+    "id": "f032cfaa-751a-42f9-a150-717a04e26481",
+    "data": [
+      {
+        "text": "Con familia y con amigos",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4e039299-f2ba-4b4f-b89b-43d7f595ca9c",
+    "data": [
+      {
+        "text": "Con familia",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "63bd142b-e898-4bb5-9f53-87fee44f8494",
+    "data": [
+      {
+        "text": "Con amigos",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9fdafc5e-b974-4c20-bb24-51034d833755",
+    "data": [
+      {
+        "text": "No festejo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

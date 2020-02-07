@@ -1,26 +1,27 @@
 {
-  "id": "1e2fb89b-ffe5-4ef1-9e09-7da5efef893d",
-  "name": "Default Fallback Intent",
+  "id": "6fb33510-d396-467a-8568-845d02b371f0",
+  "name": "FollowUpConversation",
   "auto": true,
-  "contexts": [],
+  "contexts": [
+    "questionfollow-up"
+  ],
   "responses": [
     {
       "resetContexts": false,
-      "action": "input.unknown",
-      "affectedContexts": [],
+      "affectedContexts": [
+        {
+          "name": "continue",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
       "parameters": [],
       "messages": [
         {
           "type": 0,
           "lang": "es",
           "condition": "",
-          "speech": [
-            "Ups, no he entendido a que te refieres.",
-            "¿Podrías repetirlo, por favor?",
-            "¿Disculpa?",
-            "¿Decías?",
-            "¿Cómo?"
-          ]
+          "speech": "Buenísimo, quisiera saber  ¿Cuando es tu cumpleaños?"
         }
       ],
       "defaultResponsePlatforms": {},
@@ -30,7 +31,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "fallbackIntent": true,
+  "fallbackIntent": false,
   "events": [],
   "conditionalResponses": [],
   "condition": "",

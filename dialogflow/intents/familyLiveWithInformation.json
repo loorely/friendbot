@@ -1,33 +1,46 @@
 {
-  "id": "bfdd53a5-dd89-487e-8ba0-0ab48bba7ac2",
-  "name": "UserFeelingContinue",
+  "id": "f39e8807-16b5-49df-9197-42f182f6739d",
+  "name": "familyLiveWithInformation",
   "auto": true,
   "contexts": [
-    "feelingfollowup"
+    "familyLiveWith"
   ],
   "responses": [
     {
       "resetContexts": false,
       "affectedContexts": [
         {
-          "name": "userfeelingfollowup",
+          "name": "relationship",
           "parameters": {},
           "lifespan": 5
         }
       ],
-      "parameters": [],
+      "parameters": [
+        {
+          "id": "63405702-6cf3-427a-9e29-d3261fd08cbf",
+          "required": false,
+          "dataType": "@familyLiveWith",
+          "name": "familyLiveWith",
+          "value": "$familyLiveWith",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
       "messages": [
         {
           "type": 0,
           "lang": "es",
           "condition": "",
-          "speech": "Juntos vamos a para descubrir qué cosas te hacen bien y qué cosas te ponen triste. Y cuando sepas qué cosas te hacen sentir mal o bien podemos pensar juntos actividades para que te sientas aún mejor."
+          "speech": "Gracias por compartir eso conmigo"
         },
         {
           "type": 0,
           "lang": "es",
           "condition": "",
-          "speech": "Puedes escribirme todos los dias. Te gustaria?"
+          "speech": "¿Con quién en tu familia te llevas mejor?"
         }
       ],
       "defaultResponsePlatforms": {},

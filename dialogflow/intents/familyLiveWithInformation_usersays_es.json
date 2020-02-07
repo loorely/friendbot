@@ -1,0 +1,344 @@
+[
+  {
+    "id": "868aff3f-4b86-4f05-89b5-cf1734a8767a",
+    "data": [
+      {
+        "text": "papa",
+        "alias": "familyLiveWith",
+        "meta": "@familyLiveWith",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "cde46e79-01ce-4cd4-ab97-01047a15a6fe",
+    "data": [
+      {
+        "text": "vivo con mis ",
+        "userDefined": false
+      },
+      {
+        "text": "papás",
+        "alias": "familyLiveWith",
+        "meta": "@familyLiveWith",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9f4afc64-6ea4-4147-9975-29d42cbac630",
+    "data": [
+      {
+        "text": "papa",
+        "alias": "familyLiveWith",
+        "meta": "@familyLiveWith",
+        "userDefined": false
+      },
+      {
+        "text": " y ",
+        "userDefined": false
+      },
+      {
+        "text": "mama",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b9c1ea91-f80a-4482-9651-83bbafe496ff",
+    "data": [
+      {
+        "text": "con ",
+        "userDefined": false
+      },
+      {
+        "text": "papa",
+        "alias": "familyLiveWith",
+        "meta": "@familyLiveWith",
+        "userDefined": false
+      },
+      {
+        "text": " y ",
+        "userDefined": false
+      },
+      {
+        "text": "mama",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "477715ff-28fc-4e95-9253-4da4298be420",
+    "data": [
+      {
+        "text": "con mis ",
+        "userDefined": false
+      },
+      {
+        "text": "padres",
+        "alias": "familyLiveWith",
+        "meta": "@familyLiveWith",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c6d79851-08b4-4d5f-ba9b-ec7d94e64420",
+    "data": [
+      {
+        "text": "vivo ",
+        "userDefined": false
+      },
+      {
+        "text": "sola",
+        "alias": "familyLiveWith",
+        "meta": "@familyLiveWith",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "98e7b42a-d6c6-44eb-86d9-ac7678a9cf4a",
+    "data": [
+      {
+        "text": "vivo ",
+        "userDefined": false
+      },
+      {
+        "text": "solo",
+        "alias": "familyLiveWith",
+        "meta": "@familyLiveWith",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "b7db78b2-9ded-4e86-a5c3-91bc708e7cce",
+    "data": [
+      {
+        "text": "vivo con mis ",
+        "userDefined": false
+      },
+      {
+        "text": "tíos",
+        "alias": "familyLiveWith",
+        "meta": "@familyLiveWith",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "23c60e17-8db4-472c-9372-8d3b72f3860a",
+    "data": [
+      {
+        "text": "tío",
+        "alias": "familyLiveWith",
+        "meta": "@familyLiveWith",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2be39287-4058-40af-a439-fd9156d148b7",
+    "data": [
+      {
+        "text": "tía",
+        "alias": "familyLiveWith",
+        "meta": "@familyLiveWith",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4237ebcd-684d-4304-9f2c-d3bc5d7101ab",
+    "data": [
+      {
+        "text": "abuelo",
+        "alias": "familyLiveWith",
+        "meta": "@familyLiveWith",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "7ecb1295-c055-483b-91f0-4a26d49f0808",
+    "data": [
+      {
+        "text": "abuela",
+        "alias": "familyLiveWith",
+        "meta": "@familyLiveWith",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "eb8e8890-0791-4136-82b8-4cb7b61b65c8",
+    "data": [
+      {
+        "text": "abuelos",
+        "alias": "familyLiveWith",
+        "meta": "@familyLiveWith",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "00b14551-d82d-4b89-a394-c744752cfff0",
+    "data": [
+      {
+        "text": "tios",
+        "alias": "familyLiveWith",
+        "meta": "@familyLiveWith",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "63c7c469-953f-491c-a51d-87a77bdeac81",
+    "data": [
+      {
+        "text": "hermanos",
+        "alias": "familyLiveWith",
+        "meta": "@familyLiveWith",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b6e2d239-9187-4abb-873b-282e0cfeba0b",
+    "data": [
+      {
+        "text": "mis ",
+        "userDefined": false
+      },
+      {
+        "text": "papás",
+        "alias": "familyLiveWith",
+        "meta": "@familyLiveWith",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ef15edce-642f-4729-8da2-24bb00605d00",
+    "data": [
+      {
+        "text": "mamá",
+        "alias": "familyLiveWith",
+        "meta": "@familyLiveWith",
+        "userDefined": true
+      },
+      {
+        "text": " y ",
+        "userDefined": false
+      },
+      {
+        "text": "papá",
+        "alias": "familyLiveWith",
+        "meta": "@familyLiveWith",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a616791a-b927-4a9d-8f31-7973fcb774e6",
+    "data": [
+      {
+        "text": "mamá",
+        "alias": "familyLiveWith",
+        "meta": "@familyLiveWith",
+        "userDefined": true
+      },
+      {
+        "text": " y ",
+        "userDefined": false
+      },
+      {
+        "text": "papa",
+        "alias": "familyLiveWith",
+        "meta": "@familyLiveWith",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a7bedac4-6e35-4518-a059-51b330a9b091",
+    "data": [
+      {
+        "text": "papi y mami",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "b49988b2-e442-44e0-ab9a-f4bdf73e1429",
+    "data": [
+      {
+        "text": "mamá",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

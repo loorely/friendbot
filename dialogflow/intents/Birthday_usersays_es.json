@@ -1,0 +1,74 @@
+[
+  {
+    "id": "7206b153-f124-44d2-a444-b1fbd233d817",
+    "data": [
+      {
+        "text": "el ",
+        "userDefined": false
+      },
+      {
+        "text": "20/03",
+        "alias": "date-time",
+        "meta": "@sys.date-time",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "acf22203-0076-46d0-8c15-7c11848f7fb0",
+    "data": [
+      {
+        "text": "el ",
+        "userDefined": false
+      },
+      {
+        "text": "30 de noviembre",
+        "alias": "date-time",
+        "meta": "@sys.date-time",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d1ec8a8d-502d-4380-ac30-0d4185a33c65",
+    "data": [
+      {
+        "text": "mi cumple es el ",
+        "userDefined": false
+      },
+      {
+        "text": "15/08",
+        "alias": "date-time",
+        "meta": "@sys.date-time",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f4aee1be-bbae-48ee-aa7b-e44c7dc7b996",
+    "data": [
+      {
+        "text": "mi cumpleaños es el ",
+        "userDefined": false
+      },
+      {
+        "text": "16 de agosto",
+        "alias": "date-time",
+        "meta": "@sys.date-time",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

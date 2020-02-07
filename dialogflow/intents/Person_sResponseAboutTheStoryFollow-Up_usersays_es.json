@@ -1,0 +1,94 @@
+[
+  {
+    "id": "7d248b79-93c6-45d8-9232-f147e01e691a",
+    "data": [
+      {
+        "text": "confundido",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "8bd7380c-7b43-4744-9b2e-3ef96a6677c7",
+    "data": [
+      {
+        "text": "alegre",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d1afd818-ca0e-4f7a-a81f-f807d1ceaabe",
+    "data": [
+      {
+        "text": "feliz",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ae1c9f75-7ab9-499d-9890-5292e09599de",
+    "data": [
+      {
+        "text": "enojado",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "82b33a21-293b-442b-86d6-492bc2efa21f",
+    "data": [
+      {
+        "text": "triste",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "07f956e6-45b2-4f44-83d3-ba929b859108",
+    "data": [
+      {
+        "text": "me hizo sentir mal",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "09a8a8c1-3880-43ea-b3dc-64c4325d0a46",
+    "data": [
+      {
+        "text": "me hizo sentir ",
+        "userDefined": false
+      },
+      {
+        "text": "bien",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

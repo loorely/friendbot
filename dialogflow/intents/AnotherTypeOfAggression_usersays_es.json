@@ -1,0 +1,39 @@
+[
+  {
+    "id": "68d1ae49-263a-4874-b94f-7f8309be1fb0",
+    "data": [
+      {
+        "text": "de otra forma",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c9600372-4a53-497a-8109-67680bbc1db4",
+    "data": [
+      {
+        "text": "otros",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9c88b2a9-310a-4596-8d26-95d4bbc67fe8",
+    "data": [
+      {
+        "text": "otro",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

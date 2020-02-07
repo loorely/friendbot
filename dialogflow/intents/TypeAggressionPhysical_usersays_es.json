@@ -1,0 +1,26 @@
+[
+  {
+    "id": "b876deb3-0b78-4d11-82d8-1e2d34bac568",
+    "data": [
+      {
+        "text": "violencia fisica",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a8268c51-eadf-4d96-be8e-f5b71bef393e",
+    "data": [
+      {
+        "text": "fisica",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

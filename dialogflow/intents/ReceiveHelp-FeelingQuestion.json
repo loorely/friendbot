@@ -1,40 +1,27 @@
 {
-  "id": "ec1ffccc-c10c-406f-9343-59a776135d7f",
-  "name": "FamilyTrustInformation",
+  "id": "391e9d1d-410d-44d5-9a8b-6897d242cccf",
+  "name": "ReceiveHelp-FeelingQuestion",
   "auto": true,
   "contexts": [
-    "familyTrustFollowup"
+    "questionfeeling"
   ],
   "responses": [
     {
       "resetContexts": false,
       "affectedContexts": [
         {
-          "name": "FamilyConflict",
+          "name": "endday",
           "parameters": {},
           "lifespan": 5
         }
       ],
       "parameters": [
         {
-          "id": "6d19eeed-15b4-491c-a674-4efbcff6cb9b",
+          "id": "435c21ad-333c-4d1b-a55e-479e6c8d1345",
           "required": false,
-          "dataType": "@sys.given-name",
-          "name": "given-name",
-          "value": "$given-name",
-          "promptMessages": [],
-          "noMatchPromptMessages": [],
-          "noInputPromptMessages": [],
-          "outputDialogContexts": [],
-          "defaultValue": "#givenname.given-name",
-          "isList": false
-        },
-        {
-          "id": "87f81c9a-5462-42fe-8e4f-d3978cdd4b90",
-          "required": false,
-          "dataType": "@familyLiveWith",
-          "name": "familyTrustName",
-          "value": "$familyTrustName",
+          "dataType": "@sys.any",
+          "name": "any",
+          "value": "$any",
           "promptMessages": [],
           "noMatchPromptMessages": [],
           "noInputPromptMessages": [],
@@ -47,7 +34,7 @@
           "type": 0,
           "lang": "es",
           "condition": "",
-          "speech": "¿Con quien/es soles discutir o pelear?"
+          "speech": "¿Por qué te sientes asi?"
         }
       ],
       "defaultResponsePlatforms": {},

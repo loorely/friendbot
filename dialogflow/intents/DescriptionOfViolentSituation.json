@@ -1,40 +1,39 @@
 {
-  "id": "ec1ffccc-c10c-406f-9343-59a776135d7f",
-  "name": "FamilyTrustInformation",
+  "id": "e589deb9-9bdb-4132-a8f9-0a0e74f83326",
+  "name": "DescriptionOfViolentSituation",
   "auto": true,
   "contexts": [
-    "familyTrustFollowup"
+    "Situationfollow-up"
   ],
   "responses": [
     {
       "resetContexts": false,
       "affectedContexts": [
         {
-          "name": "FamilyConflict",
+          "name": "reaction",
           "parameters": {},
           "lifespan": 5
         }
       ],
       "parameters": [
         {
-          "id": "6d19eeed-15b4-491c-a674-4efbcff6cb9b",
+          "id": "45e6f3fd-37d8-4668-9840-a46df1cd374a",
           "required": false,
-          "dataType": "@sys.given-name",
-          "name": "given-name",
-          "value": "$given-name",
+          "dataType": "@AFisica",
+          "name": "AFisica",
+          "value": "$AFisica",
           "promptMessages": [],
           "noMatchPromptMessages": [],
           "noInputPromptMessages": [],
           "outputDialogContexts": [],
-          "defaultValue": "#givenname.given-name",
           "isList": false
         },
         {
-          "id": "87f81c9a-5462-42fe-8e4f-d3978cdd4b90",
+          "id": "5731195f-6a5a-493e-9230-dd4b43c1701d",
           "required": false,
-          "dataType": "@familyLiveWith",
-          "name": "familyTrustName",
-          "value": "$familyTrustName",
+          "dataType": "@averbal",
+          "name": "averbal",
+          "value": "$averbal",
           "promptMessages": [],
           "noMatchPromptMessages": [],
           "noInputPromptMessages": [],
@@ -44,10 +43,25 @@
       ],
       "messages": [
         {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "es",
+          "condition": "",
+          "title": "¿Cómo reaccionaste cuando viste esa situación?",
+          "replies": [
+            "Me dió miedo",
+            "Me sentí amenazado",
+            "Lloré",
+            "Me reí",
+            "Pedi ayuda",
+            "de otra forma"
+          ]
+        },
+        {
           "type": 0,
           "lang": "es",
           "condition": "",
-          "speech": "¿Con quien/es soles discutir o pelear?"
+          "speech": []
         }
       ],
       "defaultResponsePlatforms": {},

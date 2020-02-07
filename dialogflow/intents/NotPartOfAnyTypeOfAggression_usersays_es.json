@@ -1,0 +1,26 @@
+[
+  {
+    "id": "ff32efc2-e814-4e4c-94f3-265b6700980d",
+    "data": [
+      {
+        "text": "Ningun tipo de agresion",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a08ef76a-e4d4-4572-9e8f-bdda82a2dfb6",
+    "data": [
+      {
+        "text": "No",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

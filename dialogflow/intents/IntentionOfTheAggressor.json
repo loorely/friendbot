@@ -1,16 +1,16 @@
 {
-  "id": "bfdd53a5-dd89-487e-8ba0-0ab48bba7ac2",
-  "name": "UserFeelingContinue",
+  "id": "35644054-f72b-423f-a856-ec22ab54db7b",
+  "name": "IntentionOfTheAggressor",
   "auto": true,
   "contexts": [
-    "feelingfollowup"
+    "intention"
   ],
   "responses": [
     {
       "resetContexts": false,
       "affectedContexts": [
         {
-          "name": "userfeelingfollowup",
+          "name": "where",
           "parameters": {},
           "lifespan": 5
         }
@@ -18,16 +18,27 @@
       "parameters": [],
       "messages": [
         {
-          "type": 0,
+          "type": 2,
+          "platform": "facebook",
           "lang": "es",
           "condition": "",
-          "speech": "Juntos vamos a para descubrir qué cosas te hacen bien y qué cosas te ponen triste. Y cuando sepas qué cosas te hacen sentir mal o bien podemos pensar juntos actividades para que te sientas aún mejor."
+          "title": "¿Donde ha ocurrido esto?",
+          "replies": [
+            "En la escuela",
+            "En mi casa",
+            "Casa de un compañer@",
+            "En un cumpleaños",
+            "En una Pijamada",
+            "En torneos escolares",
+            "En redes sociales",
+            "Otros"
+          ]
         },
         {
           "type": 0,
           "lang": "es",
           "condition": "",
-          "speech": "Puedes escribirme todos los dias. Te gustaria?"
+          "speech": []
         }
       ],
       "defaultResponsePlatforms": {},

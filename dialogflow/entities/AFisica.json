@@ -1,0 +1,9 @@
+{
+  "id": "c9704999-0c4b-40f3-94e4-06d2b595df32",
+  "name": "AFisica",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

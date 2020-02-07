@@ -1,0 +1,50 @@
+[
+  {
+    "id": "3354e794-68bd-433f-87dc-5555ee6513bf",
+    "data": [
+      {
+        "text": "no fue a proposito",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "679438a6-cc4e-4f6f-875a-a2aed3290419",
+    "data": [
+      {
+        "text": "no",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "76627c1d-e335-40e2-8473-5970ff4e37cc",
+    "data": [
+      {
+        "text": "fue a proposito",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "7d43299e-0720-48ad-ac60-6e0a3f43f68b",
+    "data": [
+      {
+        "text": "si",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

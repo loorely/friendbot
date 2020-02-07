@@ -1,0 +1,9 @@
+{
+  "id": "ae4c2dad-5639-486f-81fb-1af54ee97f03",
+  "name": "partnername",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

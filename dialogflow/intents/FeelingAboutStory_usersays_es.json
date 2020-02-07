@@ -1,0 +1,88 @@
+[
+  {
+    "id": "b97dd101-2486-46db-987b-dbeac3564590",
+    "data": [
+      {
+        "text": "confundida",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "cdb6bde5-e42c-4390-b809-2deb82723fc5",
+    "data": [
+      {
+        "text": "senti ",
+        "userDefined": false
+      },
+      {
+        "text": "miedo",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1c4cd201-ea1d-40cb-bb40-5c0ea1fa4da2",
+    "data": [
+      {
+        "text": "enojada",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9e8d4734-506d-43a9-a96b-6d0f979ff4d5",
+    "data": [
+      {
+        "text": "emocionado",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f55de7dc-8078-4463-9176-e76e3d3c3f79",
+    "data": [
+      {
+        "text": "feliz",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "7e987cf0-2e7c-4194-b224-4731a0986317",
+    "data": [
+      {
+        "text": "me senti ",
+        "userDefined": false
+      },
+      {
+        "text": "triste",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

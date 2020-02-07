@@ -1,26 +1,27 @@
 {
-  "id": "1e2fb89b-ffe5-4ef1-9e09-7da5efef893d",
-  "name": "Default Fallback Intent",
+  "id": "395189e2-1650-42be-94bb-68daaf125dd0",
+  "name": "NoHavePartner",
   "auto": true,
-  "contexts": [],
+  "contexts": [
+    "friends"
+  ],
   "responses": [
     {
       "resetContexts": false,
-      "action": "input.unknown",
-      "affectedContexts": [],
+      "affectedContexts": [
+        {
+          "name": "peoplehelp",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
       "parameters": [],
       "messages": [
         {
           "type": 0,
           "lang": "es",
           "condition": "",
-          "speech": [
-            "Ups, no he entendido a que te refieres.",
-            "¿Podrías repetirlo, por favor?",
-            "¿Disculpa?",
-            "¿Decías?",
-            "¿Cómo?"
-          ]
+          "speech": "¿Cuando te sentís mal, o tenes un problema en la escuela, a quien le contas primero?"
         }
       ],
       "defaultResponsePlatforms": {},
@@ -30,7 +31,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "fallbackIntent": true,
+  "fallbackIntent": false,
   "events": [],
   "conditionalResponses": [],
   "condition": "",

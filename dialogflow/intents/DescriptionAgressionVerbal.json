@@ -1,26 +1,27 @@
 {
-  "id": "1e2fb89b-ffe5-4ef1-9e09-7da5efef893d",
-  "name": "Default Fallback Intent",
+  "id": "fd15f08e-a0ac-4b55-8c68-dd013434d27f",
+  "name": "DescriptionAgressionVerbal",
   "auto": true,
-  "contexts": [],
+  "contexts": [
+    "typeVerbal"
+  ],
   "responses": [
     {
       "resetContexts": false,
-      "action": "input.unknown",
-      "affectedContexts": [],
+      "affectedContexts": [
+        {
+          "name": "quantity",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
       "parameters": [],
       "messages": [
         {
           "type": 0,
           "lang": "es",
           "condition": "",
-          "speech": [
-            "Ups, no he entendido a que te refieres.",
-            "¿Podrías repetirlo, por favor?",
-            "¿Disculpa?",
-            "¿Decías?",
-            "¿Cómo?"
-          ]
+          "speech": "¿Cuántas veces ha ocurrido eso?"
         }
       ],
       "defaultResponsePlatforms": {},
@@ -30,7 +31,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "fallbackIntent": true,
+  "fallbackIntent": false,
   "events": [],
   "conditionalResponses": [],
   "condition": "",

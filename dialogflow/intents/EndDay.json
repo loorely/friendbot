@@ -1,15 +1,16 @@
 {
-  "id": "892d89fe-40b0-4124-8777-3e7aaedc8cff",
-  "name": "Default Welcome Intent",
+  "id": "23343162-604d-4941-9c75-2ed59df84c5b",
+  "name": "EndDay",
   "auto": true,
-  "contexts": [],
+  "contexts": [
+    "fday"
+  ],
   "responses": [
     {
       "resetContexts": false,
-      "action": "input.welcome",
       "affectedContexts": [
         {
-          "name": "givenName",
+          "name": "newday",
           "parameters": {},
           "lifespan": 5
         }
@@ -20,12 +21,10 @@
           "type": 0,
           "lang": "es",
           "condition": "",
-          "speech": "¡Hola! Soy Friendbot, cuál es tu nombre?"
+          "speech": "¡Esto es todo por hoy, seguro estás muy cansado! Muchas gracias por abrirte y contarme tus cosas, mañana seguiremos nuestra conversación y recuerda que puedes escribirme todas las veces que quieras a cualquier hora!"
         }
       ],
-      "defaultResponsePlatforms": {
-        "facebook": true
-      },
+      "defaultResponsePlatforms": {},
       "speech": []
     }
   ],
@@ -33,11 +32,7 @@
   "webhookUsed": false,
   "webhookForSlotFilling": false,
   "fallbackIntent": false,
-  "events": [
-    {
-      "name": "WELCOME"
-    }
-  ],
+  "events": [],
   "conditionalResponses": [],
   "condition": "",
   "conditionalFollowupEvents": []

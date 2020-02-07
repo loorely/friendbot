@@ -1,40 +1,39 @@
 {
-  "id": "ec1ffccc-c10c-406f-9343-59a776135d7f",
-  "name": "FamilyTrustInformation",
+  "id": "8916575f-125a-4c2b-870f-3a876e67ed89",
+  "name": "TypeOfStoryQuestion",
   "auto": true,
   "contexts": [
-    "familyTrustFollowup"
+    "contar"
   ],
   "responses": [
     {
       "resetContexts": false,
       "affectedContexts": [
         {
-          "name": "FamilyConflict",
+          "name": "historia",
           "parameters": {},
           "lifespan": 5
         }
       ],
       "parameters": [
         {
-          "id": "6d19eeed-15b4-491c-a674-4efbcff6cb9b",
+          "id": "28718ee2-11bd-446e-b0e4-fcc353a6e278",
           "required": false,
-          "dataType": "@sys.given-name",
-          "name": "given-name",
-          "value": "$given-name",
+          "dataType": "@sys.geo-city",
+          "name": "geo-city",
+          "value": "$geo-city",
           "promptMessages": [],
           "noMatchPromptMessages": [],
           "noInputPromptMessages": [],
           "outputDialogContexts": [],
-          "defaultValue": "#givenname.given-name",
           "isList": false
         },
         {
-          "id": "87f81c9a-5462-42fe-8e4f-d3978cdd4b90",
+          "id": "5b63139f-c205-4451-9d61-17124a0c704c",
           "required": false,
-          "dataType": "@familyLiveWith",
-          "name": "familyTrustName",
-          "value": "$familyTrustName",
+          "dataType": "@averbal",
+          "name": "averbal",
+          "value": "$averbal",
           "promptMessages": [],
           "noMatchPromptMessages": [],
           "noInputPromptMessages": [],
@@ -45,9 +44,16 @@
       "messages": [
         {
           "type": 0,
+          "platform": "facebook",
           "lang": "es",
           "condition": "",
-          "speech": "¿Con quien/es soles discutir o pelear?"
+          "speech": "¿Me puedes contar tu historia?"
+        },
+        {
+          "type": 0,
+          "lang": "es",
+          "condition": "",
+          "speech": "Me puedes contar tu historia?"
         }
       ],
       "defaultResponsePlatforms": {},

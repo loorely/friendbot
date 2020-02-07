@@ -1,16 +1,16 @@
 {
-  "id": "bfdd53a5-dd89-487e-8ba0-0ab48bba7ac2",
-  "name": "UserFeelingContinue",
+  "id": "09bf2977-c997-45a9-88d6-a200e2ac1743",
+  "name": "EndQuestionOfFriend",
   "auto": true,
   "contexts": [
-    "feelingfollowup"
+    "feelingfriend"
   ],
   "responses": [
     {
       "resetContexts": false,
       "affectedContexts": [
         {
-          "name": "userfeelingfollowup",
+          "name": "peoplehelp",
           "parameters": {},
           "lifespan": 5
         }
@@ -18,16 +18,29 @@
       "parameters": [],
       "messages": [
         {
-          "type": 0,
+          "type": 2,
+          "platform": "facebook",
           "lang": "es",
           "condition": "",
-          "speech": "Juntos vamos a para descubrir qué cosas te hacen bien y qué cosas te ponen triste. Y cuando sepas qué cosas te hacen sentir mal o bien podemos pensar juntos actividades para que te sientas aún mejor."
+          "title": "¿Cuando te sentís mal, o tenes un problema en la escuela, a quien le contas primero?",
+          "replies": [
+            "Amigo",
+            "Compañero de clase",
+            "Hermano",
+            "Papá",
+            "Mamá",
+            "Psicóloga",
+            "Maestro",
+            "Director",
+            "Coordinador",
+            "Profesor"
+          ]
         },
         {
           "type": 0,
           "lang": "es",
           "condition": "",
-          "speech": "Puedes escribirme todos los dias. Te gustaria?"
+          "speech": []
         }
       ],
       "defaultResponsePlatforms": {},

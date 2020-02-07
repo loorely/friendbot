@@ -1,0 +1,70 @@
+[
+  {
+    "id": "dda1a030-5d8a-4768-b14b-ddbffcbea60c",
+    "data": [
+      {
+        "text": "Soy ",
+        "userDefined": false
+      },
+      {
+        "text": "Pati",
+        "alias": "givenName",
+        "meta": "@sys.given-name",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "aed0c52f-2031-48a0-8132-eef8d44a9933",
+    "data": [
+      {
+        "text": "me llamo ",
+        "userDefined": false
+      },
+      {
+        "text": "diana",
+        "alias": "givenName",
+        "meta": "@sys.given-name",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "340fab6a-ed4b-421a-8d21-076954475a71",
+    "data": [
+      {
+        "text": "Mi nombre es ",
+        "userDefined": false
+      },
+      {
+        "text": "Gaby",
+        "alias": "givenName",
+        "meta": "@sys.given-name",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "fbc70a5d-35b5-4903-a76c-6778938cf3fb",
+    "data": [
+      {
+        "text": "Gaby",
+        "alias": "givenName",
+        "meta": "@sys.given-name",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

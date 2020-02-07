@@ -1,15 +1,16 @@
 {
-  "id": "892d89fe-40b0-4124-8777-3e7aaedc8cff",
-  "name": "Default Welcome Intent",
+  "id": "55e6f3de-e668-48d8-9b77-212e96889a79",
+  "name": "NoPlayGames",
   "auto": true,
-  "contexts": [],
+  "contexts": [
+    "videogames"
+  ],
   "responses": [
     {
       "resetContexts": false,
-      "action": "input.welcome",
       "affectedContexts": [
         {
-          "name": "givenName",
+          "name": "ViolentSituations",
           "parameters": {},
           "lifespan": 5
         }
@@ -20,12 +21,16 @@
           "type": 0,
           "lang": "es",
           "condition": "",
-          "speech": "¡Hola! Soy Friendbot, cuál es tu nombre?"
+          "speech": "Genial, gracias por tus respuestas, ahora salgamos un poco de los juegos y vamos a situaciones que te haya pasado."
+        },
+        {
+          "type": 0,
+          "lang": "es",
+          "condition": "",
+          "speech": "¿Alguna vez viste o fuiste parte de una situación violenta?"
         }
       ],
-      "defaultResponsePlatforms": {
-        "facebook": true
-      },
+      "defaultResponsePlatforms": {},
       "speech": []
     }
   ],
@@ -33,11 +38,7 @@
   "webhookUsed": false,
   "webhookForSlotFilling": false,
   "fallbackIntent": false,
-  "events": [
-    {
-      "name": "WELCOME"
-    }
-  ],
+  "events": [],
   "conditionalResponses": [],
   "condition": "",
   "conditionalFollowupEvents": []

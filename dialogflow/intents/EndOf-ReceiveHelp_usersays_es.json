@@ -1,0 +1,20 @@
+[
+  {
+    "id": "e8764aa9-e1b2-43ff-a5db-f637f6cbe103",
+    "data": [
+      {
+        "text": "porque ",
+        "userDefined": false
+      },
+      {
+        "text": "estoy triste",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

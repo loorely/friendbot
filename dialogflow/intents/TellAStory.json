@@ -1,40 +1,39 @@
 {
-  "id": "ec1ffccc-c10c-406f-9343-59a776135d7f",
-  "name": "FamilyTrustInformation",
+  "id": "57086433-04e8-4351-b233-00f9e7ba9720",
+  "name": "TellAStory",
   "auto": true,
   "contexts": [
-    "familyTrustFollowup"
+    "actividades"
   ],
   "responses": [
     {
       "resetContexts": false,
       "affectedContexts": [
         {
-          "name": "FamilyConflict",
+          "name": "contar",
           "parameters": {},
           "lifespan": 5
         }
       ],
       "parameters": [
         {
-          "id": "6d19eeed-15b4-491c-a674-4efbcff6cb9b",
+          "id": "7995cc2b-2ec2-4a38-8d31-b09e4e033b7b",
           "required": false,
-          "dataType": "@sys.given-name",
-          "name": "given-name",
-          "value": "$given-name",
+          "dataType": "@sys.time",
+          "name": "time",
+          "value": "$time",
           "promptMessages": [],
           "noMatchPromptMessages": [],
           "noInputPromptMessages": [],
           "outputDialogContexts": [],
-          "defaultValue": "#givenname.given-name",
           "isList": false
         },
         {
-          "id": "87f81c9a-5462-42fe-8e4f-d3978cdd4b90",
+          "id": "9abb7123-67cc-4be9-b696-265f75e6fe66",
           "required": false,
-          "dataType": "@familyLiveWith",
-          "name": "familyTrustName",
-          "value": "$familyTrustName",
+          "dataType": "@sys.geo-city",
+          "name": "geo-city",
+          "value": "$geo-city",
           "promptMessages": [],
           "noMatchPromptMessages": [],
           "noInputPromptMessages": [],
@@ -44,10 +43,24 @@
       ],
       "messages": [
         {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "es",
+          "condition": "",
+          "title": "¿Qué tipo de historia me querés contar? Puede ser cualquier cosa, de algo que te pasó o te pasa en la casa, en la escuela, de un sentimiento que te cuesta hablar, de algo que te avergüenza o te da miedo.",
+          "replies": [
+            "Contar algo lindo",
+            "algo que me da rabia",
+            "algo que me da miedo",
+            "algo triste",
+            "algo que me gusto"
+          ]
+        },
+        {
           "type": 0,
           "lang": "es",
           "condition": "",
-          "speech": "¿Con quien/es soles discutir o pelear?"
+          "speech": []
         }
       ],
       "defaultResponsePlatforms": {},

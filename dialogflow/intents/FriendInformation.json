@@ -1,79 +1,61 @@
 {
-  "id": "0bc907bd-cc74-4534-91d3-747017ec422b",
-  "name": "UserGivenName",
+  "id": "6bbb09a5-891c-4845-b98c-1ddef41b7470",
+  "name": "FriendInformation",
   "auto": true,
   "contexts": [
-    "givenname"
+    "friendFollowup"
   ],
   "responses": [
     {
       "resetContexts": false,
       "affectedContexts": [
         {
-          "name": "feelingfollowup",
+          "name": "goodbye",
           "parameters": {},
           "lifespan": 5
         }
       ],
       "parameters": [
         {
-          "id": "80657af1-f720-4a13-8320-3efc4800274c",
-          "required": true,
+          "id": "068e1ac7-5d65-4580-a486-be48f2258009",
+          "required": false,
           "dataType": "@sys.given-name",
           "name": "givenName",
           "value": "$givenName",
-          "prompts": [
-            {
-              "lang": "es",
-              "value": "Me puedes decir tu nombre?"
-            }
-          ],
           "promptMessages": [],
           "noMatchPromptMessages": [],
           "noInputPromptMessages": [],
           "outputDialogContexts": [],
+          "defaultValue": "#GivenName.given-name",
           "isList": false
         }
       ],
       "messages": [
         {
-          "type": 2,
-          "platform": "facebook",
+          "type": 0,
           "lang": "es",
           "condition": "",
-          "title": "Antes de empezar, quiero saber si puedes hablar conmigo ahora?",
-          "replies": [
-            "Si, puedo hablar.",
-            "No hoy, gracias."
-          ]
+          "speech": "¡Muy bien! Mañana hablaremos sobre tus amigos"
         },
         {
           "type": 0,
           "lang": "es",
           "condition": "",
-          "speech": "Encantado de conocerte $givenName.original"
+          "speech": "Eso es todo por hoy. Que tengas lindo día."
         },
         {
           "type": 0,
           "lang": "es",
           "condition": "",
-          "speech": "Es importante que sepas que no soy un niño, soy una herramienta de ayuda para ti."
-        },
-        {
-          "type": 0,
-          "lang": "es",
-          "condition": "",
-          "speech": []
+          "speech": "Chau"
         }
       ],
-      "defaultResponsePlatforms": {
-        "facebook": true
-      },
+      "defaultResponsePlatforms": {},
       "speech": []
     }
   ],
   "priority": 500000,
-  "webhookUsed": true,
+  "webhookUsed": false,
   "webhookForSlotFilling": false,
   "fallbackIntent": false,
   "events": [],

@@ -1,33 +1,40 @@
 {
-  "id": "bfdd53a5-dd89-487e-8ba0-0ab48bba7ac2",
-  "name": "UserFeelingContinue",
+  "id": "741c7afc-6889-486d-a217-43ba77da4141",
+  "name": "PlaceOfAggression",
   "auto": true,
   "contexts": [
-    "feelingfollowup"
+    "where"
   ],
   "responses": [
     {
       "resetContexts": false,
       "affectedContexts": [
         {
-          "name": "userfeelingfollowup",
+          "name": "present",
           "parameters": {},
           "lifespan": 5
         }
       ],
-      "parameters": [],
+      "parameters": [
+        {
+          "id": "ffab91ea-930a-4dfc-86ed-4b38528a7268",
+          "required": false,
+          "dataType": "@sys.time",
+          "name": "time",
+          "value": "$time",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
       "messages": [
         {
           "type": 0,
           "lang": "es",
           "condition": "",
-          "speech": "Juntos vamos a para descubrir qué cosas te hacen bien y qué cosas te ponen triste. Y cuando sepas qué cosas te hacen sentir mal o bien podemos pensar juntos actividades para que te sientas aún mejor."
-        },
-        {
-          "type": 0,
-          "lang": "es",
-          "condition": "",
-          "speech": "Puedes escribirme todos los dias. Te gustaria?"
+          "speech": "¿Quienes estaban presentes?"
         }
       ],
       "defaultResponsePlatforms": {},

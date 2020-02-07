@@ -1,0 +1,9 @@
+{
+  "id": "c422207c-6db6-4079-ada9-5ee939e69e06",
+  "name": "averbal",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

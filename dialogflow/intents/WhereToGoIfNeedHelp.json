@@ -1,15 +1,16 @@
 {
-  "id": "892d89fe-40b0-4124-8777-3e7aaedc8cff",
-  "name": "Default Welcome Intent",
+  "id": "88837ab1-8268-4f31-88d6-a20199b56dcf",
+  "name": "WhereToGoIfNeedHelp",
   "auto": true,
-  "contexts": [],
+  "contexts": [
+    "helpfollow-up"
+  ],
   "responses": [
     {
       "resetContexts": false,
-      "action": "input.welcome",
       "affectedContexts": [
         {
-          "name": "givenName",
+          "name": "videogames",
           "parameters": {},
           "lifespan": 5
         }
@@ -20,12 +21,16 @@
           "type": 0,
           "lang": "es",
           "condition": "",
-          "speech": "¡Hola! Soy Friendbot, cuál es tu nombre?"
+          "speech": "¡Muy bien! ¡Venís muy bien! Creo que nos estamos empezando a conocer! Te haré ahora algunas preguntas para saber si alguna vez viste o viviste alguna situación fea."
+        },
+        {
+          "type": 0,
+          "lang": "es",
+          "condition": "",
+          "speech": "¿Jugas juegos en internet?"
         }
       ],
-      "defaultResponsePlatforms": {
-        "facebook": true
-      },
+      "defaultResponsePlatforms": {},
       "speech": []
     }
   ],
@@ -33,11 +38,7 @@
   "webhookUsed": false,
   "webhookForSlotFilling": false,
   "fallbackIntent": false,
-  "events": [
-    {
-      "name": "WELCOME"
-    }
-  ],
+  "events": [],
   "conditionalResponses": [],
   "condition": "",
   "conditionalFollowupEvents": []

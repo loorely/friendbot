@@ -1,0 +1,39 @@
+{
+  "id": "ced5ddac-cf4c-43a7-86a1-91bec8704114",
+  "name": "AnswerAboutHavingNobodyToTalk(End))",
+  "auto": true,
+  "contexts": [
+    "negativeone"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "condition": "",
+          "speech": "Piensa, piensa bien, que seguro tienes una maestra o un amigo, o alguien en la escuela que se preocupa por ti y le encantará que vayas a contarle. Piensalo hoy mientras duermes y mañana me cuentas si se te ocurrió alguien!"
+        },
+        {
+          "type": 0,
+          "lang": "es",
+          "condition": "",
+          "speech": "¡Esto es todo por hoy! Muchas gracias por abrirte y contarme tus cosas, mañana seguiremos nuestra conversación y recuerda que puedes escribirme todas las veces que quieras a cualquier hora!"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

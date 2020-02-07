@@ -1,0 +1,162 @@
+[
+  {
+    "id": "3e020de3-6ed8-4426-9971-1ac216eabc9e",
+    "data": [
+      {
+        "text": "con nadie",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2940c94f-58c6-411d-9858-e3e0368f1252",
+    "data": [
+      {
+        "text": "nadie",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1cd89973-ed9a-4cc0-9c56-e6ec9406919f",
+    "data": [
+      {
+        "text": "primo",
+        "alias": "familyLiveWith",
+        "meta": "@familyLiveWith",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "147897f3-76bc-4a46-b933-3a76b6e1b745",
+    "data": [
+      {
+        "text": "abuela",
+        "alias": "familyLiveWith",
+        "meta": "@familyLiveWith",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "cc13a2c6-30e6-41a8-a3e7-70c6c56104f6",
+    "data": [
+      {
+        "text": "con mi ",
+        "userDefined": false
+      },
+      {
+        "text": "abuelo",
+        "alias": "familyLiveWith",
+        "meta": "@familyLiveWith",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c7857393-c520-454a-8504-412cc671c5e8",
+    "data": [
+      {
+        "text": "con mi ",
+        "userDefined": false
+      },
+      {
+        "text": "hermana",
+        "alias": "familyLiveWith",
+        "meta": "@familyLiveWith",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "88e95b6f-e6cf-45d1-b169-a9d6a16143c6",
+    "data": [
+      {
+        "text": "con mi ",
+        "userDefined": false
+      },
+      {
+        "text": "hermano",
+        "alias": "familyLiveWith",
+        "meta": "@familyLiveWith",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "98e871cf-202a-4f67-9c04-093f792e8fae",
+    "data": [
+      {
+        "text": "con mi ",
+        "userDefined": false
+      },
+      {
+        "text": "prima",
+        "alias": "familyLiveWith",
+        "meta": "@familyLiveWith",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "233e0baf-3040-4a3e-a9fc-ea4494a1cf5f",
+    "data": [
+      {
+        "text": "con mis ",
+        "userDefined": false
+      },
+      {
+        "text": "primos",
+        "alias": "familyLiveWith",
+        "meta": "@familyLiveWith",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "fa7467a5-25ec-46f6-a956-596b7ec61181",
+    "data": [
+      {
+        "text": "Con mis ",
+        "userDefined": false
+      },
+      {
+        "text": "padres",
+        "alias": "familyLiveWith",
+        "meta": "@familyLiveWith",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

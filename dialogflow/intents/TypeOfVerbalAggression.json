@@ -1,16 +1,16 @@
 {
-  "id": "bfdd53a5-dd89-487e-8ba0-0ab48bba7ac2",
-  "name": "UserFeelingContinue",
+  "id": "46257bee-1409-4681-918a-f5bdbd32b56a",
+  "name": "TypeOfVerbalAggression",
   "auto": true,
   "contexts": [
-    "feelingfollowup"
+    "typeagression"
   ],
   "responses": [
     {
       "resetContexts": false,
       "affectedContexts": [
         {
-          "name": "userfeelingfollowup",
+          "name": "typeVerbal",
           "parameters": {},
           "lifespan": 5
         }
@@ -18,16 +18,23 @@
       "parameters": [],
       "messages": [
         {
-          "type": 0,
+          "type": 2,
+          "platform": "facebook",
           "lang": "es",
           "condition": "",
-          "speech": "Juntos vamos a para descubrir qué cosas te hacen bien y qué cosas te ponen triste. Y cuando sepas qué cosas te hacen sentir mal o bien podemos pensar juntos actividades para que te sientas aún mejor."
+          "title": "Y esa agresión verbal cómo fue?",
+          "replies": [
+            "sobrenombres,apodos",
+            "sentí vergüenza",
+            "Me excluyeron",
+            "Insultos humillación"
+          ]
         },
         {
           "type": 0,
           "lang": "es",
           "condition": "",
-          "speech": "Puedes escribirme todos los dias. Te gustaria?"
+          "speech": []
         }
       ],
       "defaultResponsePlatforms": {},

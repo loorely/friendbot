@@ -1,16 +1,16 @@
 {
-  "id": "bfdd53a5-dd89-487e-8ba0-0ab48bba7ac2",
-  "name": "UserFeelingContinue",
+  "id": "6e6697d0-086a-4203-b087-0705be54aae3",
+  "name": "DescriptionViolentSituation",
   "auto": true,
   "contexts": [
-    "feelingfollowup"
+    "descripcion"
   ],
   "responses": [
     {
       "resetContexts": false,
       "affectedContexts": [
         {
-          "name": "userfeelingfollowup",
+          "name": "type",
           "parameters": {},
           "lifespan": 5
         }
@@ -18,16 +18,21 @@
       "parameters": [],
       "messages": [
         {
-          "type": 0,
+          "type": 2,
+          "platform": "facebook",
           "lang": "es",
           "condition": "",
-          "speech": "Juntos vamos a para descubrir qué cosas te hacen bien y qué cosas te ponen triste. Y cuando sepas qué cosas te hacen sentir mal o bien podemos pensar juntos actividades para que te sientas aún mejor."
+          "title": "¿Tu recibiste alguna vez una agresión física, verbal, o a través de redes sociales?",
+          "replies": [
+            "si",
+            "no"
+          ]
         },
         {
           "type": 0,
           "lang": "es",
           "condition": "",
-          "speech": "Puedes escribirme todos los dias. Te gustaria?"
+          "speech": []
         }
       ],
       "defaultResponsePlatforms": {},
@@ -37,7 +42,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "fallbackIntent": false,
+  "fallbackIntent": true,
   "events": [],
   "conditionalResponses": [],
   "condition": "",

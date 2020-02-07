@@ -1,0 +1,122 @@
+[
+  {
+    "id": "b6a9796d-5fb6-461f-ad0f-b0da093024c6",
+    "data": [
+      {
+        "text": "otro",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "57d62d62-f995-41db-be76-a0a9a19602fb",
+    "data": [
+      {
+        "text": "Me encierran",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "25781ebc-5144-49c9-a6d4-3bdfeaa46149",
+    "data": [
+      {
+        "text": "Me castigan",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "7cbe5315-57cb-4b56-a62f-28d62ba265df",
+    "data": [
+      {
+        "text": "Me prohiben jugar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d7797ae6-4689-4c70-9a7f-0ee5482e4c11",
+    "data": [
+      {
+        "text": "No me dejan usar la Tablet",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "51b37cb3-23bc-4686-95ff-5dea45f76169",
+    "data": [
+      {
+        "text": "No me dejan usar la computadora",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d1362f6f-5dd3-439e-a3c2-b147aa1b4389",
+    "data": [
+      {
+        "text": "No me dejan usar el celular",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "92b25805-de90-49b9-b917-b8c26948b660",
+    "data": [
+      {
+        "text": "Me encierran en la pieza",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "32663879-4188-419c-b39b-403ae6f525e2",
+    "data": [
+      {
+        "text": "Me pegan",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "205627dd-206d-41f8-ba62-de0d3a826be8",
+    "data": [
+      {
+        "text": "Me gritan",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

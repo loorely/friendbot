@@ -1,0 +1,120 @@
+[
+  {
+    "id": "9fbcdc7c-6c14-4f5a-8787-d3323fa48ef5",
+    "data": [
+      {
+        "text": "con ",
+        "userDefined": false
+      },
+      {
+        "text": "nadie",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c632f0e3-3e41-4dc9-a0f1-fa14bb762be2",
+    "data": [
+      {
+        "text": "nadie",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "59a9cb1b-2fad-40c9-b2c0-41397c72460c",
+    "data": [
+      {
+        "text": "abuelos",
+        "alias": "familyLiveWith",
+        "meta": "@familyLiveWith",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ae0fe53e-dba1-4e9f-954a-1ab6795d6f00",
+    "data": [
+      {
+        "text": "abuela",
+        "alias": "familyLiveWith",
+        "meta": "@familyLiveWith",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "dbf936d2-078c-464b-bd3d-5642e98c6d8d",
+    "data": [
+      {
+        "text": "hermano",
+        "alias": "familyLiveWith",
+        "meta": "@familyLiveWith",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b20a78e3-f64f-412b-a9bd-8d2ec109343b",
+    "data": [
+      {
+        "text": "hermana",
+        "alias": "familyLiveWith",
+        "meta": "@familyLiveWith",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "3759c684-34d9-4e8c-995b-544c16734e6f",
+    "data": [
+      {
+        "text": "papa",
+        "alias": "familyLiveWith",
+        "meta": "@familyLiveWith",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ac760825-561b-4e59-a9b2-c91facbba8a4",
+    "data": [
+      {
+        "text": "Con mi ",
+        "userDefined": false
+      },
+      {
+        "text": "mama",
+        "alias": "familyLiveWith",
+        "meta": "@familyLiveWith",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

@@ -1,12 +1,11 @@
 {
-  "id": "1e2fb89b-ffe5-4ef1-9e09-7da5efef893d",
-  "name": "Default Fallback Intent",
+  "id": "76ce84e0-2267-47d3-a061-e140798345f0",
+  "name": "NothingMoreForToday",
   "auto": true,
   "contexts": [],
   "responses": [
     {
       "resetContexts": false,
-      "action": "input.unknown",
       "affectedContexts": [],
       "parameters": [],
       "messages": [
@@ -14,13 +13,7 @@
           "type": 0,
           "lang": "es",
           "condition": "",
-          "speech": [
-            "Ups, no he entendido a que te refieres.",
-            "¿Podrías repetirlo, por favor?",
-            "¿Disculpa?",
-            "¿Decías?",
-            "¿Cómo?"
-          ]
+          "speech": "¡Muy bien, esto es todo por hoy! Muchas gracias por abrirte y contarme tus cosas, mañana seguiremos nuestra conversación y recuerda que puedes escribirme todas las veces que quieras a cualquier hora!"
         }
       ],
       "defaultResponsePlatforms": {},
@@ -30,7 +23,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "fallbackIntent": true,
+  "fallbackIntent": false,
   "events": [],
   "conditionalResponses": [],
   "condition": "",

@@ -1,40 +1,51 @@
 {
-  "id": "ec1ffccc-c10c-406f-9343-59a776135d7f",
-  "name": "FamilyTrustInformation",
+  "id": "7b9dbbff-641f-438f-a92e-c590348e0c63",
+  "name": "DescriptionAgressionFisica",
   "auto": true,
   "contexts": [
-    "familyTrustFollowup"
+    "typefisica"
   ],
   "responses": [
     {
       "resetContexts": false,
       "affectedContexts": [
         {
-          "name": "FamilyConflict",
+          "name": "quantity",
           "parameters": {},
           "lifespan": 5
         }
       ],
       "parameters": [
         {
-          "id": "6d19eeed-15b4-491c-a674-4efbcff6cb9b",
+          "id": "2d23fe41-d181-4a7a-b13f-0c402b788f08",
           "required": false,
-          "dataType": "@sys.given-name",
-          "name": "given-name",
-          "value": "$given-name",
+          "dataType": "@AFisica",
+          "name": "AFisica",
+          "value": "$AFisica",
           "promptMessages": [],
           "noMatchPromptMessages": [],
           "noInputPromptMessages": [],
           "outputDialogContexts": [],
-          "defaultValue": "#givenname.given-name",
           "isList": false
         },
         {
-          "id": "87f81c9a-5462-42fe-8e4f-d3978cdd4b90",
+          "id": "344b52c7-1631-4d13-befd-3a654b293135",
           "required": false,
-          "dataType": "@familyLiveWith",
-          "name": "familyTrustName",
-          "value": "$familyTrustName",
+          "dataType": "@AFisica",
+          "name": "AFisica1",
+          "value": "$AFisica1",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "aa23decb-1297-4274-864e-4c2629f8f49d",
+          "required": false,
+          "dataType": "@averbal",
+          "name": "averbal",
+          "value": "$averbal",
           "promptMessages": [],
           "noMatchPromptMessages": [],
           "noInputPromptMessages": [],
@@ -47,7 +58,7 @@
           "type": 0,
           "lang": "es",
           "condition": "",
-          "speech": "¿Con quien/es soles discutir o pelear?"
+          "speech": "¿Cuántas veces ha ocurrido eso?"
         }
       ],
       "defaultResponsePlatforms": {},

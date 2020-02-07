@@ -1,0 +1,30 @@
+[
+  {
+    "value": "Correr",
+    "synonyms": [
+      "Correr",
+      "corremos"
+    ]
+  },
+  {
+    "value": "Bailar",
+    "synonyms": [
+      "Bailar",
+      "Bailamos"
+    ]
+  },
+  {
+    "value": "Jugar",
+    "synonyms": [
+      "Jugar",
+      "Jugamos"
+    ]
+  },
+  {
+    "value": "Nada",
+    "synonyms": [
+      "Nada",
+      "Nada"
+    ]
+  }
+]

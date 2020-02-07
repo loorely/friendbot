@@ -1,40 +1,27 @@
 {
-  "id": "ec1ffccc-c10c-406f-9343-59a776135d7f",
-  "name": "FamilyTrustInformation",
+  "id": "9a263c3e-c2de-464b-9745-70109541ac9d",
+  "name": "EndOf-ReceiveHelp",
   "auto": true,
   "contexts": [
-    "familyTrustFollowup"
+    "endd"
   ],
   "responses": [
     {
       "resetContexts": false,
       "affectedContexts": [
         {
-          "name": "FamilyConflict",
+          "name": "fday",
           "parameters": {},
           "lifespan": 5
         }
       ],
       "parameters": [
         {
-          "id": "6d19eeed-15b4-491c-a674-4efbcff6cb9b",
+          "id": "20b3c5c5-58ab-4c63-9b4f-93cd8260c0a0",
           "required": false,
-          "dataType": "@sys.given-name",
-          "name": "given-name",
-          "value": "$given-name",
-          "promptMessages": [],
-          "noMatchPromptMessages": [],
-          "noInputPromptMessages": [],
-          "outputDialogContexts": [],
-          "defaultValue": "#givenname.given-name",
-          "isList": false
-        },
-        {
-          "id": "87f81c9a-5462-42fe-8e4f-d3978cdd4b90",
-          "required": false,
-          "dataType": "@familyLiveWith",
-          "name": "familyTrustName",
-          "value": "$familyTrustName",
+          "dataType": "@sys.any",
+          "name": "any",
+          "value": "$any",
           "promptMessages": [],
           "noMatchPromptMessages": [],
           "noInputPromptMessages": [],
@@ -47,7 +34,13 @@
           "type": 0,
           "lang": "es",
           "condition": "",
-          "speech": "¿Con quien/es soles discutir o pelear?"
+          "speech": "Lamento mucho escuchar esto, te invito a que vayas a hablarlo con alguien, con una maestra o un amigo, tu papá o tu mamá, alguien que se preocupa por ti y le encantará que vayas a contarle. ¡Piensalo hoy mientras duermes y mañana me cuentas si se te ocurrió alguien!"
+        },
+        {
+          "type": 0,
+          "lang": "es",
+          "condition": "",
+          "speech": "¿Te parece?"
         }
       ],
       "defaultResponsePlatforms": {},

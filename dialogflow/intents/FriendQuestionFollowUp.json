@@ -1,40 +1,27 @@
 {
-  "id": "ec1ffccc-c10c-406f-9343-59a776135d7f",
-  "name": "FamilyTrustInformation",
+  "id": "58e49f31-16d1-4d42-8486-200e7a0ac822",
+  "name": "FriendQuestionFollowUp",
   "auto": true,
   "contexts": [
-    "familyTrustFollowup"
+    "hasapartner"
   ],
   "responses": [
     {
       "resetContexts": false,
       "affectedContexts": [
         {
-          "name": "FamilyConflict",
+          "name": "activities",
           "parameters": {},
           "lifespan": 5
         }
       ],
       "parameters": [
         {
-          "id": "6d19eeed-15b4-491c-a674-4efbcff6cb9b",
+          "id": "d5cae67d-bed3-4065-8e93-76b3af5185f0",
           "required": false,
           "dataType": "@sys.given-name",
-          "name": "given-name",
-          "value": "$given-name",
-          "promptMessages": [],
-          "noMatchPromptMessages": [],
-          "noInputPromptMessages": [],
-          "outputDialogContexts": [],
-          "defaultValue": "#givenname.given-name",
-          "isList": false
-        },
-        {
-          "id": "87f81c9a-5462-42fe-8e4f-d3978cdd4b90",
-          "required": false,
-          "dataType": "@familyLiveWith",
-          "name": "familyTrustName",
-          "value": "$familyTrustName",
+          "name": "friendName",
+          "value": "$friendName",
           "promptMessages": [],
           "noMatchPromptMessages": [],
           "noInputPromptMessages": [],
@@ -44,10 +31,24 @@
       ],
       "messages": [
         {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "es",
+          "condition": "",
+          "title": "¿Que cosas hacen juntos?",
+          "replies": [
+            "jugar",
+            "practicar deportes",
+            "estudiar",
+            "hablar",
+            "otros"
+          ]
+        },
+        {
           "type": 0,
           "lang": "es",
           "condition": "",
-          "speech": "¿Con quien/es soles discutir o pelear?"
+          "speech": []
         }
       ],
       "defaultResponsePlatforms": {},

@@ -1,0 +1,113 @@
+[
+  {
+    "id": "a5901abd-bee5-4952-8ada-d6dbe1bd5fc7",
+    "data": [
+      {
+        "text": "Desconocidos",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "fb0a0e08-fa86-4617-b602-b40ecbea741e",
+    "data": [
+      {
+        "text": "la limpiadora",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "7680c459-1843-49bc-a3c9-22bbf23777c3",
+    "data": [
+      {
+        "text": "el ",
+        "userDefined": false
+      },
+      {
+        "text": "portero",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "02691e2d-44ee-42c8-9ffb-707d2055fbe9",
+    "data": [
+      {
+        "text": "un maestro",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "806a18d0-86fc-4a64-abf6-fe9c843cf32a",
+    "data": [
+      {
+        "text": "una ",
+        "userDefined": false
+      },
+      {
+        "text": "profesora",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9ea091dc-0d2a-43db-bce1-6a0a16a698b3",
+    "data": [
+      {
+        "text": "mis amigosun",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "07f88eef-21cb-4b83-bf47-7bb12e10cae1",
+    "data": [
+      {
+        "text": "otros compañeros",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9557d2a7-f650-459e-b86f-dcbafc0f6b07",
+    "data": [
+      {
+        "text": "nadie",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

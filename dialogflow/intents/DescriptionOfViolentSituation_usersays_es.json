@@ -1,0 +1,72 @@
+[
+  {
+    "id": "bbd74b0c-b690-4215-96c6-c04108197727",
+    "data": [
+      {
+        "text": "otros",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b0c1cf23-3880-4418-836f-00c108a1bd43",
+    "data": [
+      {
+        "text": "empujones",
+        "alias": "AFisica",
+        "meta": "@AFisica",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "af773fad-8078-4068-82f5-b4ac1c02c131",
+    "data": [
+      {
+        "text": "insultos",
+        "alias": "averbal",
+        "meta": "@averbal",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0dddb381-d75f-4286-b27a-acec0b43a973",
+    "data": [
+      {
+        "text": "Hubo gritos",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2d1594a7-f66d-4940-bc4c-0eb8e85b4ae1",
+    "data": [
+      {
+        "text": "Hubo ",
+        "userDefined": false
+      },
+      {
+        "text": "golpes",
+        "alias": "AFisica",
+        "meta": "@AFisica",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

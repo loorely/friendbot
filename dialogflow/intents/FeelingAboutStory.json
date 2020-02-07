@@ -1,40 +1,27 @@
 {
-  "id": "ec1ffccc-c10c-406f-9343-59a776135d7f",
-  "name": "FamilyTrustInformation",
+  "id": "9d4e6608-56d2-48b6-be20-7ede4d55ed29",
+  "name": "FeelingAboutStory",
   "auto": true,
   "contexts": [
-    "familyTrustFollowup"
+    "historiafollow-up"
   ],
   "responses": [
     {
       "resetContexts": false,
       "affectedContexts": [
         {
-          "name": "FamilyConflict",
+          "name": "sshistoria",
           "parameters": {},
           "lifespan": 5
         }
       ],
       "parameters": [
         {
-          "id": "6d19eeed-15b4-491c-a674-4efbcff6cb9b",
+          "id": "bdf3ecbc-d519-4f61-84c8-848eee1e55bd",
           "required": false,
-          "dataType": "@sys.given-name",
-          "name": "given-name",
-          "value": "$given-name",
-          "promptMessages": [],
-          "noMatchPromptMessages": [],
-          "noInputPromptMessages": [],
-          "outputDialogContexts": [],
-          "defaultValue": "#givenname.given-name",
-          "isList": false
-        },
-        {
-          "id": "87f81c9a-5462-42fe-8e4f-d3978cdd4b90",
-          "required": false,
-          "dataType": "@familyLiveWith",
-          "name": "familyTrustName",
-          "value": "$familyTrustName",
+          "dataType": "@sys.any",
+          "name": "any",
+          "value": "$any",
           "promptMessages": [],
           "noMatchPromptMessages": [],
           "noInputPromptMessages": [],
@@ -44,10 +31,21 @@
       ],
       "messages": [
         {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "es",
+          "condition": "",
+          "title": "¿Le has contado a alguien más esta historia?",
+          "replies": [
+            "si",
+            "no"
+          ]
+        },
+        {
           "type": 0,
           "lang": "es",
           "condition": "",
-          "speech": "¿Con quien/es soles discutir o pelear?"
+          "speech": []
         }
       ],
       "defaultResponsePlatforms": {},

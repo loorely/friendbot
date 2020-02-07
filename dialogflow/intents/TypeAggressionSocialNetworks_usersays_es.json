@@ -1,0 +1,38 @@
+[
+  {
+    "id": "3d165648-a844-47a2-89c7-0723cd97af84",
+    "data": [
+      {
+        "text": "violencia por redes sociales",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "cc4fe087-d1ac-44bc-9670-1ddd1555bf09",
+    "data": [
+      {
+        "text": "por redes sociales",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "eec1bf1a-eec8-45c9-a108-c851577008cf",
+    "data": [
+      {
+        "text": "redes sociales",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

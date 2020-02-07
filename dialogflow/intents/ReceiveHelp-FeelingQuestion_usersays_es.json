@@ -1,0 +1,46 @@
+[
+  {
+    "id": "d408d543-03a5-48cf-8f10-ed374ddb9462",
+    "data": [
+      {
+        "text": "solo",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ff6f4cbc-a346-4431-9c0d-a6b9ee84c9c9",
+    "data": [
+      {
+        "text": "me siento ",
+        "userDefined": false
+      },
+      {
+        "text": "triste",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0a3326a8-864d-4d1c-819d-2c446cb82071",
+    "data": [
+      {
+        "text": "tengo miedo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

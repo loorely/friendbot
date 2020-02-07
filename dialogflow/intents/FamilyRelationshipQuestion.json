@@ -1,40 +1,27 @@
 {
-  "id": "ec1ffccc-c10c-406f-9343-59a776135d7f",
-  "name": "FamilyTrustInformation",
+  "id": "93b52e00-992f-48f8-86a0-780d0e1225e1",
+  "name": "FamilyRelationshipQuestion",
   "auto": true,
   "contexts": [
-    "familyTrustFollowup"
+    "relationship"
   ],
   "responses": [
     {
       "resetContexts": false,
       "affectedContexts": [
         {
-          "name": "FamilyConflict",
+          "name": "familyTrustFollowup",
           "parameters": {},
           "lifespan": 5
         }
       ],
       "parameters": [
         {
-          "id": "6d19eeed-15b4-491c-a674-4efbcff6cb9b",
-          "required": false,
-          "dataType": "@sys.given-name",
-          "name": "given-name",
-          "value": "$given-name",
-          "promptMessages": [],
-          "noMatchPromptMessages": [],
-          "noInputPromptMessages": [],
-          "outputDialogContexts": [],
-          "defaultValue": "#givenname.given-name",
-          "isList": false
-        },
-        {
-          "id": "87f81c9a-5462-42fe-8e4f-d3978cdd4b90",
+          "id": "f19aa506-dac7-44a9-bd75-0c50a07c1ac7",
           "required": false,
           "dataType": "@familyLiveWith",
-          "name": "familyTrustName",
-          "value": "$familyTrustName",
+          "name": "familyLiveWith",
+          "value": "$familyLiveWith",
           "promptMessages": [],
           "noMatchPromptMessages": [],
           "noInputPromptMessages": [],
@@ -47,7 +34,7 @@
           "type": 0,
           "lang": "es",
           "condition": "",
-          "speech": "¿Con quien/es soles discutir o pelear?"
+          "speech": "¿En quienes confías más en tu familia?"
         }
       ],
       "defaultResponsePlatforms": {},

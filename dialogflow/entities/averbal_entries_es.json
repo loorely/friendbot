@@ -1,0 +1,24 @@
+[
+  {
+    "value": "sobrenombres",
+    "synonyms": [
+      "sobrenombres",
+      "apodos"
+    ]
+  },
+  {
+    "value": "humillantes",
+    "synonyms": [
+      "humillantes",
+      "humillacion",
+      "vergüenza",
+      "insultaron"
+    ]
+  },
+  {
+    "value": "excluyeron",
+    "synonyms": [
+      "excluyeron"
+    ]
+  }
+]

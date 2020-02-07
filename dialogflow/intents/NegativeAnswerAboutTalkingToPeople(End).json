@@ -1,33 +1,27 @@
 {
-  "id": "bfdd53a5-dd89-487e-8ba0-0ab48bba7ac2",
-  "name": "UserFeelingContinue",
+  "id": "8a42e824-157a-4ac0-80c1-f6ea75c9d779",
+  "name": "NegativeAnswerAboutTalkingToPeople(End)",
   "auto": true,
   "contexts": [
-    "feelingfollowup"
+    "negativeone"
   ],
   "responses": [
     {
       "resetContexts": false,
-      "affectedContexts": [
-        {
-          "name": "userfeelingfollowup",
-          "parameters": {},
-          "lifespan": 5
-        }
-      ],
+      "affectedContexts": [],
       "parameters": [],
       "messages": [
         {
           "type": 0,
           "lang": "es",
           "condition": "",
-          "speech": "Juntos vamos a para descubrir qué cosas te hacen bien y qué cosas te ponen triste. Y cuando sepas qué cosas te hacen sentir mal o bien podemos pensar juntos actividades para que te sientas aún mejor."
+          "speech": "Se que es difícil, y nos da vergüenza hablar, pero confía en mí, seguro te sentirás  mejor! Se necesita un poco de fuerza y podrás ver lo bueno que es hablar con personas que te pueden ayudar."
         },
         {
           "type": 0,
           "lang": "es",
           "condition": "",
-          "speech": "Puedes escribirme todos los dias. Te gustaria?"
+          "speech": "¡Esto es todo por hoy! Muchas gracias por abrirte y contarme tus cosas, mañana seguiremos nuestra conversación y recuerda que puedes escribirme todas las veces que quieras a cualquier hora!"
         }
       ],
       "defaultResponsePlatforms": {},

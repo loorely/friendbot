@@ -1,0 +1,74 @@
+[
+  {
+    "id": "2220543e-7446-42d2-8366-4ab516be7c11",
+    "data": [
+      {
+        "text": "esta bien",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "cee354c5-534e-4db5-8053-3aee9a06864e",
+    "data": [
+      {
+        "text": "bueno",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "bb544609-279f-4fff-9dbd-ebcee32553ed",
+    "data": [
+      {
+        "text": "si",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "6e6e0837-af9f-4cbd-a7b9-ae5ff0795329",
+    "data": [
+      {
+        "text": "Si, puedo hablar.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a3462e22-cb99-4222-ac4a-3a3b605e369e",
+    "data": [
+      {
+        "text": "Ok",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b29adf60-71cf-46dd-91a3-6978d6a2ab2c",
+    "data": [
+      {
+        "text": "Si, hablemos",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

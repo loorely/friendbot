@@ -1,0 +1,78 @@
+[
+  {
+    "id": "92cd4aaf-2269-479e-ad52-3ec61fa17524",
+    "data": [
+      {
+        "text": "muchas veces",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "dffffb50-c6c2-4294-aae4-96a129af4504",
+    "data": [
+      {
+        "text": "siempre",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "be2efcf8-f436-4ba8-b20f-5bf0c76dfb26",
+    "data": [
+      {
+        "text": "Todo el tiempo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "645685e0-e61b-41d2-82f9-8658b07ab19a",
+    "data": [
+      {
+        "text": "Algunas veces",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e5f5e614-0109-4208-b759-83c9fca06c09",
+    "data": [
+      {
+        "text": "Una",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "sola",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " vez",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

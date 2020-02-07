@@ -1,15 +1,16 @@
 {
-  "id": "892d89fe-40b0-4124-8777-3e7aaedc8cff",
-  "name": "Default Welcome Intent",
+  "id": "31eb022c-7f6f-42f2-ac36-012011f50f80",
+  "name": "NotellTheStory",
   "auto": true,
-  "contexts": [],
+  "contexts": [
+    "sshistor"
+  ],
   "responses": [
     {
       "resetContexts": false,
-      "action": "input.welcome",
       "affectedContexts": [
         {
-          "name": "givenName",
+          "name": "negativeone",
           "parameters": {},
           "lifespan": 5
         }
@@ -20,12 +21,10 @@
           "type": 0,
           "lang": "es",
           "condition": "",
-          "speech": "¡Hola! Soy Friendbot, cuál es tu nombre?"
+          "speech": "Siempre es bueno hablarlo con alguien y no quedarse con nada guardado. Mi ayuda para hoy, es decirte que vayas con una persona que te sientas cómodo: mamá, papá, un hermano, un amigo, una maestra, con quien tu prefieras y le cuentes esto que te pasó. Seguro te sentirás mejor! Prueba y mañana me cuentas. ¿Te parece?"
         }
       ],
-      "defaultResponsePlatforms": {
-        "facebook": true
-      },
+      "defaultResponsePlatforms": {},
       "speech": []
     }
   ],
@@ -33,11 +32,7 @@
   "webhookUsed": false,
   "webhookForSlotFilling": false,
   "fallbackIntent": false,
-  "events": [
-    {
-      "name": "WELCOME"
-    }
-  ],
+  "events": [],
   "conditionalResponses": [],
   "condition": "",
   "conditionalFollowupEvents": []

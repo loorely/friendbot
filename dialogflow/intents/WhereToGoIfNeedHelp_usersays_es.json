@@ -1,0 +1,98 @@
+[
+  {
+    "id": "6d54e6e3-722e-41f0-8bc8-f904835ccc56",
+    "data": [
+      {
+        "text": "No hago ",
+        "userDefined": false
+      },
+      {
+        "text": "nada",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d9633ae6-f22f-44f2-b2db-dd4251d3e980",
+    "data": [
+      {
+        "text": "Me voy de la escuela",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "aa45f55d-58d5-4ec1-89fa-3f9bcbdb079a",
+    "data": [
+      {
+        "text": "Voy a la enfermería",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "36aefc42-cf7b-4280-8dfb-8c85afc35efe",
+    "data": [
+      {
+        "text": "Busco a ",
+        "userDefined": false
+      },
+      {
+        "text": "un",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "maestro",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c2872475-d7fb-42e2-88b1-a4bcc0505894",
+    "data": [
+      {
+        "text": "hablar con el tutor",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b9851a32-0c05-4e98-b1b2-a2e64b091205",
+    "data": [
+      {
+        "text": "A la ",
+        "userDefined": false
+      },
+      {
+        "text": "psicóloga",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

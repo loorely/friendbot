@@ -1,15 +1,16 @@
 {
-  "id": "892d89fe-40b0-4124-8777-3e7aaedc8cff",
-  "name": "Default Welcome Intent",
+  "id": "40d18cb0-c954-4de8-a1a3-9021eea51f96",
+  "name": "FamilyPunishmentQuestion",
   "auto": true,
-  "contexts": [],
+  "contexts": [
+    "follow-uppunishments"
+  ],
   "responses": [
     {
       "resetContexts": false,
-      "action": "input.welcome",
       "affectedContexts": [
         {
-          "name": "givenName",
+          "name": "questionfollow-up",
           "parameters": {},
           "lifespan": 5
         }
@@ -17,10 +18,21 @@
       "parameters": [],
       "messages": [
         {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "es",
+          "condition": "",
+          "title": "¿Seguimos?",
+          "replies": [
+            "Si",
+            "No"
+          ]
+        },
+        {
           "type": 0,
           "lang": "es",
           "condition": "",
-          "speech": "¡Hola! Soy Friendbot, cuál es tu nombre?"
+          "speech": "¡Muy bien! Gracias por confiar en mi. Ahora te voy a preguntar más cosas acerca de tus amigos."
         }
       ],
       "defaultResponsePlatforms": {
@@ -33,11 +45,7 @@
   "webhookUsed": false,
   "webhookForSlotFilling": false,
   "fallbackIntent": false,
-  "events": [
-    {
-      "name": "WELCOME"
-    }
-  ],
+  "events": [],
   "conditionalResponses": [],
   "condition": "",
   "conditionalFollowupEvents": []

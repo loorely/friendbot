@@ -1,40 +1,32 @@
 {
-  "id": "ec1ffccc-c10c-406f-9343-59a776135d7f",
-  "name": "FamilyTrustInformation",
+  "id": "38a810c9-e987-48bf-89a2-a3eed7d287b0",
+  "name": "Birthday",
   "auto": true,
   "contexts": [
-    "familyTrustFollowup"
+    "continue"
   ],
   "responses": [
     {
       "resetContexts": false,
       "affectedContexts": [
         {
-          "name": "FamilyConflict",
+          "name": "continue",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "party",
           "parameters": {},
           "lifespan": 5
         }
       ],
       "parameters": [
         {
-          "id": "6d19eeed-15b4-491c-a674-4efbcff6cb9b",
+          "id": "ea43bd28-17b1-4056-b4cf-fb242aefe8d2",
           "required": false,
-          "dataType": "@sys.given-name",
-          "name": "given-name",
-          "value": "$given-name",
-          "promptMessages": [],
-          "noMatchPromptMessages": [],
-          "noInputPromptMessages": [],
-          "outputDialogContexts": [],
-          "defaultValue": "#givenname.given-name",
-          "isList": false
-        },
-        {
-          "id": "87f81c9a-5462-42fe-8e4f-d3978cdd4b90",
-          "required": false,
-          "dataType": "@familyLiveWith",
-          "name": "familyTrustName",
-          "value": "$familyTrustName",
+          "dataType": "@sys.date-time",
+          "name": "date-time",
+          "value": "$date-time",
           "promptMessages": [],
           "noMatchPromptMessages": [],
           "noInputPromptMessages": [],
@@ -47,7 +39,7 @@
           "type": 0,
           "lang": "es",
           "condition": "",
-          "speech": "¿Con quien/es soles discutir o pelear?"
+          "speech": "¡Genial! Así te puedo desear feliz cumpleaños. ¿Como celebras tu cumpleaños?"
         }
       ],
       "defaultResponsePlatforms": {},

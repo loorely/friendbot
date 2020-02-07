@@ -1,0 +1,92 @@
+[
+  {
+    "id": "cba36446-ec2f-4111-a533-a35e4eb21af5",
+    "data": [
+      {
+        "text": "otros",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ac60b233-fe95-45da-a121-dff7cfc4b415",
+    "data": [
+      {
+        "text": "tiene mas dinero",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "31a4acc0-bdce-4db0-9b9e-ec066fb50e1d",
+    "data": [
+      {
+        "text": "mas populares",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "95ad9aa6-1b2b-46dd-8deb-3ef23fa17e92",
+    "data": [
+      {
+        "text": "mas lindos",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "8eb280d5-48ab-44e7-aae4-3217aa9b5dba",
+    "data": [
+      {
+        "text": "Tienen ",
+        "userDefined": false
+      },
+      {
+        "text": "más dinero",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4948d18b-7d50-4370-b6d3-d4b56881a71f",
+    "data": [
+      {
+        "text": "mas altas",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "dcd0b816-1eb1-46bd-8b12-5901558e0d76",
+    "data": [
+      {
+        "text": "más grandes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

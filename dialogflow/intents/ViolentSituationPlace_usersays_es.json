@@ -1,0 +1,179 @@
+[
+  {
+    "id": "f9bec9fc-78dc-452b-b390-de26c44ed896",
+    "data": [
+      {
+        "text": "En casa ",
+        "userDefined": false
+      },
+      {
+        "text": "de un",
+        "alias": "time-period",
+        "meta": "@sys.time-period",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "familiar",
+        "alias": "Help",
+        "meta": "@Help",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "10ac4eea-e368-45c9-9a7d-0654e8c0eaf6",
+    "data": [
+      {
+        "text": "En la ",
+        "userDefined": false
+      },
+      {
+        "text": "calle",
+        "alias": "last-name",
+        "meta": "@sys.last-name",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "69d4398b-6135-4cda-837e-f5827a11bf28",
+    "data": [
+      {
+        "text": "En la iglesia",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "60db376b-fea3-4e1d-946d-ec75d39472e8",
+    "data": [
+      {
+        "text": "En el club",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "550ed0b5-8f6d-4db3-9b09-c6c5402578e7",
+    "data": [
+      {
+        "text": "En la escuela",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0c79c8ff-3135-4326-9f6b-de32976e1f22",
+    "data": [
+      {
+        "text": "En la casa",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " de ",
+        "userDefined": false
+      },
+      {
+        "text": "mi",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "compañero",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1d34dfc0-ab32-4d90-a530-45820635ed22",
+    "data": [
+      {
+        "text": "En la casa",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " de ",
+        "userDefined": false
+      },
+      {
+        "text": "mi",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "amigo",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c59c7bd0-f716-45f8-9779-db8841d38957",
+    "data": [
+      {
+        "text": "En la casa de mi ",
+        "userDefined": false
+      },
+      {
+        "text": "abuela",
+        "alias": "familyLiveWith",
+        "meta": "@familyLiveWith",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2563fc54-a0f6-4faf-989a-56a41defb2f5",
+    "data": [
+      {
+        "text": "En mi casa",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

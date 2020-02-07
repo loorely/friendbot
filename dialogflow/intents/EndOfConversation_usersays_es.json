@@ -1,0 +1,50 @@
+[
+  {
+    "id": "e3377311-6b23-46a9-b73a-30fbd3f5eb77",
+    "data": [
+      {
+        "text": "ya me canse",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ee05c45f-d405-42a9-a5f6-bab541268fcc",
+    "data": [
+      {
+        "text": "chau",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "bbd23ef0-338a-468f-981b-8572f2192b61",
+    "data": [
+      {
+        "text": "no quiero",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f931f2b3-a3d6-4634-8259-fbac3896d7e5",
+    "data": [
+      {
+        "text": "no",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

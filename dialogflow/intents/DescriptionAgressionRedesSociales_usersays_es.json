@@ -1,0 +1,87 @@
+[
+  {
+    "id": "2807e00b-c55e-4503-b924-374287344ddd",
+    "data": [
+      {
+        "text": "me insultan en redes",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "8722ab55-ea6e-4264-a461-3c7f106206ce",
+    "data": [
+      {
+        "text": "No me permiten ",
+        "userDefined": false
+      },
+      {
+        "text": "jugar",
+        "alias": "Activities",
+        "meta": "@Activities",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "00493445-345f-4ca1-8ae3-95c6a3f2b863",
+    "data": [
+      {
+        "text": "Graban ",
+        "userDefined": false
+      },
+      {
+        "text": "mi voz",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "554fe866-d395-4508-b198-042bcfa7eb20",
+    "data": [
+      {
+        "text": "Me hacen stickers",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a4326022-b53d-4bd7-9138-5b8aca3e21c9",
+    "data": [
+      {
+        "text": "Envían mensajes feos",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a8f962ec-c33a-4c38-9e2f-65accdb071f8",
+    "data": [
+      {
+        "text": "Socializan fotos",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

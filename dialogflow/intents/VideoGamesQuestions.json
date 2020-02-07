@@ -1,26 +1,27 @@
 {
-  "id": "1e2fb89b-ffe5-4ef1-9e09-7da5efef893d",
-  "name": "Default Fallback Intent",
+  "id": "978d6061-51a1-4f53-b4d6-1454fa977bec",
+  "name": "VideoGamesQuestions",
   "auto": true,
-  "contexts": [],
+  "contexts": [
+    "typevideogames"
+  ],
   "responses": [
     {
       "resetContexts": false,
-      "action": "input.unknown",
-      "affectedContexts": [],
+      "affectedContexts": [
+        {
+          "name": "agresiones",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
       "parameters": [],
       "messages": [
         {
           "type": 0,
           "lang": "es",
           "condition": "",
-          "speech": [
-            "Ups, no he entendido a que te refieres.",
-            "¿Podrías repetirlo, por favor?",
-            "¿Disculpa?",
-            "¿Decías?",
-            "¿Cómo?"
-          ]
+          "speech": "Qué bueno! a mi también me gusta mucho ese juego. Si cuando estás jugando en grupo en redes, uno de los jugadores empieza a agredirte a vos o a los otros, ¿qué harías?"
         }
       ],
       "defaultResponsePlatforms": {},

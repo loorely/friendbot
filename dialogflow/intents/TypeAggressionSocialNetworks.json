@@ -1,16 +1,16 @@
 {
-  "id": "bfdd53a5-dd89-487e-8ba0-0ab48bba7ac2",
-  "name": "UserFeelingContinue",
+  "id": "19b82ff7-6bd0-417c-8894-b727c1ae08f8",
+  "name": "TypeAggressionSocialNetworks",
   "auto": true,
   "contexts": [
-    "feelingfollowup"
+    "typeagression"
   ],
   "responses": [
     {
       "resetContexts": false,
       "affectedContexts": [
         {
-          "name": "userfeelingfollowup",
+          "name": "typeRedesSociales",
           "parameters": {},
           "lifespan": 5
         }
@@ -18,16 +18,25 @@
       "parameters": [],
       "messages": [
         {
-          "type": 0,
+          "type": 2,
+          "platform": "facebook",
           "lang": "es",
           "condition": "",
-          "speech": "Juntos vamos a para descubrir qué cosas te hacen bien y qué cosas te ponen triste. Y cuando sepas qué cosas te hacen sentir mal o bien podemos pensar juntos actividades para que te sientas aún mejor."
+          "title": "Y esa agresión por redes sociales cómo fue?",
+          "replies": [
+            "Socializan fotos",
+            "Envían mensajes feos",
+            "Me hacen stickers",
+            "Graban mi voz",
+            "No me permiten jugar",
+            "Excluyen de grupos"
+          ]
         },
         {
           "type": 0,
           "lang": "es",
           "condition": "",
-          "speech": "Puedes escribirme todos los dias. Te gustaria?"
+          "speech": []
         }
       ],
       "defaultResponsePlatforms": {},

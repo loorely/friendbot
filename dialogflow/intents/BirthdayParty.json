@@ -1,26 +1,32 @@
 {
-  "id": "1e2fb89b-ffe5-4ef1-9e09-7da5efef893d",
-  "name": "Default Fallback Intent",
+  "id": "b16008f2-82b5-4634-8ba8-b79d9698f0cd",
+  "name": "BirthdayParty",
   "auto": true,
-  "contexts": [],
+  "contexts": [
+    "party"
+  ],
   "responses": [
     {
       "resetContexts": false,
-      "action": "input.unknown",
-      "affectedContexts": [],
+      "affectedContexts": [
+        {
+          "name": "party",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "friends",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
       "parameters": [],
       "messages": [
         {
           "type": 0,
           "lang": "es",
           "condition": "",
-          "speech": [
-            "Ups, no he entendido a que te refieres.",
-            "¿Podrías repetirlo, por favor?",
-            "¿Disculpa?",
-            "¿Decías?",
-            "¿Cómo?"
-          ]
+          "speech": "¿Tenes algún mejor amigo/compañero? ¿Compañera?"
         }
       ],
       "defaultResponsePlatforms": {},
@@ -30,7 +36,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "fallbackIntent": true,
+  "fallbackIntent": false,
   "events": [],
   "conditionalResponses": [],
   "condition": "",

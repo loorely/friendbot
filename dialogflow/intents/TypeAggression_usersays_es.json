@@ -1,0 +1,39 @@
+[
+  {
+    "id": "30923f1d-b6b6-4cca-ae14-63691c4a3c25",
+    "data": [
+      {
+        "text": "creo que si",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ef9a201a-2d30-4abe-9bba-43a27b61b5df",
+    "data": [
+      {
+        "text": "a veces",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c4343cbb-6ae3-4325-bee2-34c0df1f69aa",
+    "data": [
+      {
+        "text": "si",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

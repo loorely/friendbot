@@ -1,16 +1,16 @@
 {
-  "id": "bfdd53a5-dd89-487e-8ba0-0ab48bba7ac2",
-  "name": "UserFeelingContinue",
+  "id": "c33d7f3f-d03d-4d19-b8d8-a060eaabcdca",
+  "name": "TypeAggression",
   "auto": true,
   "contexts": [
-    "feelingfollowup"
+    "type"
   ],
   "responses": [
     {
       "resetContexts": false,
       "affectedContexts": [
         {
-          "name": "userfeelingfollowup",
+          "name": "typeagression",
           "parameters": {},
           "lifespan": 5
         }
@@ -18,16 +18,23 @@
       "parameters": [],
       "messages": [
         {
-          "type": 0,
+          "type": 2,
+          "platform": "facebook",
           "lang": "es",
           "condition": "",
-          "speech": "Juntos vamos a para descubrir qué cosas te hacen bien y qué cosas te ponen triste. Y cuando sepas qué cosas te hacen sentir mal o bien podemos pensar juntos actividades para que te sientas aún mejor."
+          "title": "Uuf que pena, y cómo fue esa agresión?",
+          "replies": [
+            "verbal",
+            "fisica",
+            "redes sociales",
+            "de otra forma"
+          ]
         },
         {
           "type": 0,
           "lang": "es",
           "condition": "",
-          "speech": "Puedes escribirme todos los dias. Te gustaria?"
+          "speech": []
         }
       ],
       "defaultResponsePlatforms": {},

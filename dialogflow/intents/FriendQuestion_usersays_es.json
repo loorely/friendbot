@@ -1,0 +1,38 @@
+[
+  {
+    "id": "71f99153-c6c5-416e-892e-345f664fb204",
+    "data": [
+      {
+        "text": "por supuesto",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a169eac4-be89-47d8-981e-4ad076feaa75",
+    "data": [
+      {
+        "text": "si",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "05195a80-e636-4607-92d4-0d47702b70f7",
+    "data": [
+      {
+        "text": "Si tengo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

@@ -1,0 +1,87 @@
+[
+  {
+    "id": "fe538365-8dad-4390-aed5-1ebff3d218ee",
+    "data": [
+      {
+        "text": "sigamos",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a267dd37-87a8-4150-90c1-123c72241337",
+    "data": [
+      {
+        "text": "bueno",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "dca0f591-2981-45fd-aae8-adad9c676979",
+    "data": [
+      {
+        "text": "esta bien",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "11ef1d4b-1ed9-4c13-a578-14400a7d4c71",
+    "data": [
+      {
+        "text": "dale",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1856e0d8-b872-45c8-a27a-e79e11c1b7f7",
+    "data": [
+      {
+        "text": "okay",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1b90169b-11cf-431a-9eb4-0a11aa762e85",
+    "data": [
+      {
+        "text": "ok",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "17468671-32cc-40bb-9b2f-526805ce9540",
+    "data": [
+      {
+        "text": "Si",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

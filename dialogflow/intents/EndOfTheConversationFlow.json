@@ -1,40 +1,27 @@
 {
-  "id": "ec1ffccc-c10c-406f-9343-59a776135d7f",
-  "name": "FamilyTrustInformation",
+  "id": "2537a5a3-ca64-45f2-81e8-dc9c67855144",
+  "name": "EndOfTheConversationFlow",
   "auto": true,
   "contexts": [
-    "familyTrustFollowup"
+    "feelingfollowup"
   ],
   "responses": [
     {
       "resetContexts": false,
       "affectedContexts": [
         {
-          "name": "FamilyConflict",
+          "name": "feelingfollowup",
           "parameters": {},
           "lifespan": 5
         }
       ],
       "parameters": [
         {
-          "id": "6d19eeed-15b4-491c-a674-4efbcff6cb9b",
+          "id": "5826d50b-156f-4367-b1f4-8d0af2fb3a4e",
           "required": false,
-          "dataType": "@sys.given-name",
-          "name": "given-name",
-          "value": "$given-name",
-          "promptMessages": [],
-          "noMatchPromptMessages": [],
-          "noInputPromptMessages": [],
-          "outputDialogContexts": [],
-          "defaultValue": "#givenname.given-name",
-          "isList": false
-        },
-        {
-          "id": "87f81c9a-5462-42fe-8e4f-d3978cdd4b90",
-          "required": false,
-          "dataType": "@familyLiveWith",
-          "name": "familyTrustName",
-          "value": "$familyTrustName",
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
           "promptMessages": [],
           "noMatchPromptMessages": [],
           "noInputPromptMessages": [],
@@ -47,7 +34,10 @@
           "type": 0,
           "lang": "es",
           "condition": "",
-          "speech": "¿Con quien/es soles discutir o pelear?"
+          "speech": [
+            "Bueno esta bien, hablemos mañana entonces. ¡Que tengas un buen día!",
+            "Genial! Esto es todo por hoy, hablemos mañana a esta misma hora o cuando quieras sabes que me puedes escribir!"
+          ]
         }
       ],
       "defaultResponsePlatforms": {},

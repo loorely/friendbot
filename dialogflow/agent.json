@@ -1,19 +1,22 @@
 {
   "description": "",
-  "language": "en",
+  "language": "es",
   "shortDescription": "",
   "examples": "",
   "linkToDocs": "",
   "disableInteractionLogs": false,
   "disableStackdriverLogs": true,
   "googleAssistant": {
-    "googleAssistantCompatible": false,
-    "project": "friendbot-elife-sbyriq",
+    "googleAssistantCompatible": true,
+    "project": "friendbot-es-xmwytr",
     "welcomeIntentSignInRequired": false,
     "startIntents": [],
     "systemIntents": [],
     "endIntentIds": [
-      "2537a5a3-ca64-45f2-81e8-dc9c67855144"
+      "2537a5a3-ca64-45f2-81e8-dc9c67855144",
+      "6bbb09a5-891c-4845-b98c-1ddef41b7470",
+      "76ce84e0-2267-47d3-a061-e140798345f0",
+      "eed3568d-1690-4357-94e3-187ef1d0ceea"
     ],
     "oAuthLinking": {
       "required": false,
@@ -33,19 +36,19 @@
   },
   "defaultTimezone": "Europe/Madrid",
   "webhook": {
-    "url": "",
+    "url": "https://us-central1-friendbot-es-xmwytr.cloudfunctions.net/dialogflowFirebaseFulfillment",
     "username": "",
     "headers": {},
-    "available": false,
+    "available": true,
     "useForDomains": false,
-    "cloudFunctionsEnabled": false,
-    "cloudFunctionsInitialized": false
+    "cloudFunctionsEnabled": true,
+    "cloudFunctionsInitialized": true
   },
   "isPrivate": true,
   "customClassifierMode": "use.after",
   "mlMinConfidence": 0.3,
   "supportedLanguages": [],
-  "onePlatformApiVersion": "v2beta1",
+  "onePlatformApiVersion": "v2",
   "analyzeQueryTextSentiment": false,
   "enabledKnowledgeBaseNames": [],
   "knowledgeServiceConfidenceAdjustment": -0.4,

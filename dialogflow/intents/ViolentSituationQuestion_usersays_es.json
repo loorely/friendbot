@@ -1,0 +1,51 @@
+[
+  {
+    "id": "6856a07a-86d1-4863-81bf-261a65e48f06",
+    "data": [
+      {
+        "text": "creo que si",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "fe42f3bb-00a8-41cc-bb38-02c5ea96a357",
+    "data": [
+      {
+        "text": "si, no pero la vi",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a155f8df-c093-41d2-91bb-0a21a5606895",
+    "data": [
+      {
+        "text": "Si",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "6413f235-b1cb-4f0b-8602-f0f05c6fdc9a",
+    "data": [
+      {
+        "text": "Si fui parte",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

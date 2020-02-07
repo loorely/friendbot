@@ -1,0 +1,68 @@
+[
+  {
+    "id": "6913144d-08aa-467b-85df-9c97ceb95959",
+    "data": [
+      {
+        "text": "otros",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f6f8460d-7400-4948-ac12-1add7dc748c8",
+    "data": [
+      {
+        "text": "jugar",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "693d9cfb-5f16-4c91-94cb-f5bd90ffc246",
+    "data": [
+      {
+        "text": "hablar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "bfd7905f-ec54-409f-90ac-d3b7a8df0c3f",
+    "data": [
+      {
+        "text": "estudiar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "17cc6f8e-1b44-4e41-bfc0-93f005ffdeaa",
+    "data": [
+      {
+        "text": "Practicar ",
+        "userDefined": false
+      },
+      {
+        "text": "deportes",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

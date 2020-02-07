@@ -1,0 +1,219 @@
+[
+  {
+    "id": "6301c130-8d90-49b6-93e2-82f78fabf064",
+    "data": [
+      {
+        "text": "nadie",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "480329b4-7bc6-44e7-9e4b-4488e2ecdfb6",
+    "data": [
+      {
+        "text": "en nadie",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b0714b62-519e-4a6a-aff3-3f47863726e2",
+    "data": [
+      {
+        "text": "en mi ",
+        "userDefined": false
+      },
+      {
+        "text": "mama",
+        "alias": "familyTrustName",
+        "meta": "@familyLiveWith",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9db89567-3a17-4092-8d88-db7734dc0a46",
+    "data": [
+      {
+        "text": "abuela",
+        "alias": "familyTrustName",
+        "meta": "@familyLiveWith",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "67cf79da-94eb-4ed9-a00a-b57cbd8c2e49",
+    "data": [
+      {
+        "text": "abuelo",
+        "alias": "familyTrustName",
+        "meta": "@familyLiveWith",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5b164cac-b106-4346-885d-b400d52149b2",
+    "data": [
+      {
+        "text": "abuelos",
+        "alias": "familyTrustName",
+        "meta": "@familyLiveWith",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "860b86ef-2fa4-4ab6-b668-fc6502066d07",
+    "data": [
+      {
+        "text": "abuenos",
+        "alias": "familyTrustName",
+        "meta": "@familyLiveWith",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e1ca6a78-c52c-46b4-81c6-aae91ae5ea7b",
+    "data": [
+      {
+        "text": "tias",
+        "alias": "familyTrustName",
+        "meta": "@familyLiveWith",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b25f66e8-8d2c-424f-b5db-940c70566f0c",
+    "data": [
+      {
+        "text": "tios",
+        "alias": "familyTrustName",
+        "meta": "@familyLiveWith",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "6c358ce8-8c8c-4dfd-bd4c-3f75455db7ae",
+    "data": [
+      {
+        "text": "tia",
+        "alias": "familyTrustName",
+        "meta": "@familyLiveWith",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "be6f90e6-3247-47bb-b27d-df5c5e3b6749",
+    "data": [
+      {
+        "text": "tio",
+        "alias": "familyTrustName",
+        "meta": "@familyLiveWith",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a0c78f06-0a23-4e78-8297-53728a254c13",
+    "data": [
+      {
+        "text": "papi",
+        "alias": "familyTrustName",
+        "meta": "@familyLiveWith",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a3c49731-cee5-4539-b327-4a15e8c9aeb5",
+    "data": [
+      {
+        "text": "mami",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c5424d27-6103-42b4-88cb-dcffb0d25240",
+    "data": [
+      {
+        "text": "con mami",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "db7f8f66-ef58-429c-99c1-1e6fa272a99e",
+    "data": [
+      {
+        "text": "mama y papa",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9836a768-7b34-4cee-ae39-3a19c5b8a3e4",
+    "data": [
+      {
+        "text": "con mi mama y mi papa",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

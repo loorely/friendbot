@@ -1,0 +1,96 @@
+[
+  {
+    "id": "83c3009e-b269-4cc3-bae9-054904ac9f16",
+    "data": [
+      {
+        "text": "de otra",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " forma",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "dface361-7299-4932-9057-693c75d32395",
+    "data": [
+      {
+        "text": "Pedi",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ayuda",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "439dc687-f8b4-4e72-8699-52f638b0fed8",
+    "data": [
+      {
+        "text": "Grite",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "db466a21-60bb-4089-9baf-e5c7588f776d",
+    "data": [
+      {
+        "text": "Me reí",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0cc514ff-69b5-41dc-817c-347537f9d98e",
+    "data": [
+      {
+        "text": "Lloré",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d6047501-15d3-4030-a968-d927f64213a1",
+    "data": [
+      {
+        "text": "Me sentí amenazado",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e2d61432-6782-4088-8ea6-8f00bdf5c635",
+    "data": [
+      {
+        "text": "Me dió miedo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

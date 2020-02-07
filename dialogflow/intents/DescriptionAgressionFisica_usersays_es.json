@@ -1,0 +1,74 @@
+[
+  {
+    "id": "3b50bb07-5425-496d-bc7c-1970d21b08b8",
+    "data": [
+      {
+        "text": "Golpes",
+        "alias": "AFisica",
+        "meta": "@AFisica",
+        "userDefined": false
+      },
+      {
+        "text": ", etc.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "60fe61c6-b490-4342-b23b-5acee9f91c32",
+    "data": [
+      {
+        "text": "Gestos ",
+        "userDefined": false
+      },
+      {
+        "text": "humillantes",
+        "alias": "averbal",
+        "meta": "@averbal",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ca41b8b6-074c-4c12-b0ca-03ace94a9d08",
+    "data": [
+      {
+        "text": "cortadura, quemadura",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "873ca664-0296-4af2-8481-13af68b9fd9d",
+    "data": [
+      {
+        "text": "puñetazos",
+        "alias": "AFisica",
+        "meta": "@AFisica",
+        "userDefined": false
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "empujones",
+        "alias": "AFisica1",
+        "meta": "@AFisica",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

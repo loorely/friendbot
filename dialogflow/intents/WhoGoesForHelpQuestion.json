@@ -1,40 +1,27 @@
 {
-  "id": "ec1ffccc-c10c-406f-9343-59a776135d7f",
-  "name": "FamilyTrustInformation",
+  "id": "8554c372-e293-4e84-8089-73f079b89ffd",
+  "name": "WhoGoesForHelpQuestion",
   "auto": true,
   "contexts": [
-    "familyTrustFollowup"
+    "peoplehelp"
   ],
   "responses": [
     {
       "resetContexts": false,
       "affectedContexts": [
         {
-          "name": "FamilyConflict",
+          "name": "helpfollow-up",
           "parameters": {},
           "lifespan": 5
         }
       ],
       "parameters": [
         {
-          "id": "6d19eeed-15b4-491c-a674-4efbcff6cb9b",
+          "id": "886c1baf-4aae-43fa-99f2-3ca3b75401a5",
           "required": false,
-          "dataType": "@sys.given-name",
-          "name": "given-name",
-          "value": "$given-name",
-          "promptMessages": [],
-          "noMatchPromptMessages": [],
-          "noInputPromptMessages": [],
-          "outputDialogContexts": [],
-          "defaultValue": "#givenname.given-name",
-          "isList": false
-        },
-        {
-          "id": "87f81c9a-5462-42fe-8e4f-d3978cdd4b90",
-          "required": false,
-          "dataType": "@familyLiveWith",
-          "name": "familyTrustName",
-          "value": "$familyTrustName",
+          "dataType": "@sys.any",
+          "name": "any",
+          "value": "$any",
           "promptMessages": [],
           "noMatchPromptMessages": [],
           "noInputPromptMessages": [],
@@ -44,10 +31,25 @@
       ],
       "messages": [
         {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "es",
+          "condition": "",
+          "title": "Cuando te sentís mal o tienes un problema en la escuela, ¿a donde vas?",
+          "replies": [
+            "A la psicóloga",
+            "hablar con el tutor",
+            "Busco a un maestro",
+            "Voy a la enfermería",
+            "Me voy de la escuela",
+            "No hago nada"
+          ]
+        },
+        {
           "type": 0,
           "lang": "es",
           "condition": "",
-          "speech": "¿Con quien/es soles discutir o pelear?"
+          "speech": []
         }
       ],
       "defaultResponsePlatforms": {},

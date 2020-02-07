@@ -1,40 +1,27 @@
 {
-  "id": "ec1ffccc-c10c-406f-9343-59a776135d7f",
-  "name": "FamilyTrustInformation",
+  "id": "a3cb0672-2756-429e-89ba-41fd0d374120",
+  "name": "FamilyConflictQuestion",
   "auto": true,
   "contexts": [
-    "familyTrustFollowup"
+    "FamilyConflict"
   ],
   "responses": [
     {
       "resetContexts": false,
       "affectedContexts": [
         {
-          "name": "FamilyConflict",
+          "name": "follow-uppunishments",
           "parameters": {},
           "lifespan": 5
         }
       ],
       "parameters": [
         {
-          "id": "6d19eeed-15b4-491c-a674-4efbcff6cb9b",
-          "required": false,
-          "dataType": "@sys.given-name",
-          "name": "given-name",
-          "value": "$given-name",
-          "promptMessages": [],
-          "noMatchPromptMessages": [],
-          "noInputPromptMessages": [],
-          "outputDialogContexts": [],
-          "defaultValue": "#givenname.given-name",
-          "isList": false
-        },
-        {
-          "id": "87f81c9a-5462-42fe-8e4f-d3978cdd4b90",
+          "id": "9c8e6c44-8005-411b-a331-33ff549cc538",
           "required": false,
           "dataType": "@familyLiveWith",
-          "name": "familyTrustName",
-          "value": "$familyTrustName",
+          "name": "familyLiveWith",
+          "value": "$familyLiveWith",
           "promptMessages": [],
           "noMatchPromptMessages": [],
           "noInputPromptMessages": [],
@@ -44,10 +31,19 @@
       ],
       "messages": [
         {
-          "type": 0,
+          "type": 2,
+          "platform": "facebook",
           "lang": "es",
           "condition": "",
-          "speech": "¿Con quien/es soles discutir o pelear?"
+          "title": "¿Cuando haces algo que no les gusta a tus padres/hermanos mayores, que pasa?",
+          "replies": [
+            "Me gritan",
+            "Me pegan",
+            "Me encierran",
+            "Me prohíben jugar",
+            "Me castigan",
+            "Otro"
+          ]
         }
       ],
       "defaultResponsePlatforms": {},

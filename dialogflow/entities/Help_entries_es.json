@@ -1,0 +1,38 @@
+[
+  {
+    "value": "Familiar",
+    "synonyms": [
+      "Familiar",
+      "Mama",
+      "Papa",
+      "Abuelo",
+      "Abuela",
+      "Tio",
+      "Tia",
+      "Hermano",
+      "Hermana"
+    ]
+  },
+  {
+    "value": "Amigos",
+    "synonyms": [
+      "Amigos",
+      "Compañero",
+      "Compañera",
+      "Amigo",
+      "Amiga"
+    ]
+  },
+  {
+    "value": "Maestros",
+    "synonyms": [
+      "Maestros",
+      "Director",
+      "Coordinador",
+      "Tutor",
+      "Psicologo",
+      "Enfermera",
+      "Profesora"
+    ]
+  }
+]

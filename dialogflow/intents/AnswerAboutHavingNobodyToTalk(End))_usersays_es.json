@@ -1,0 +1,35 @@
+[
+  {
+    "id": "cbedbd72-3f33-4afc-90ef-ff75088e2a43",
+    "data": [
+      {
+        "text": "no tengo ",
+        "userDefined": false
+      },
+      {
+        "text": "nadie",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " a quien contarle",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9b1d1f11-7f10-45bc-8ec2-479aa7c15144",
+    "data": [
+      {
+        "text": "no se a quien decirle",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

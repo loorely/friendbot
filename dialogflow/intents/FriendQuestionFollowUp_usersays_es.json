@@ -1,0 +1,52 @@
+[
+  {
+    "id": "76228846-5dd8-4fcd-be5d-4cf668697ea7",
+    "data": [
+      {
+        "text": "Emily",
+        "alias": "friendName",
+        "meta": "@sys.given-name",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ae4463ed-1dc4-46c8-9136-7058cb5741af",
+    "data": [
+      {
+        "text": "su nombre es ",
+        "userDefined": false
+      },
+      {
+        "text": "Ale",
+        "alias": "friendName",
+        "meta": "@sys.given-name",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "dfc80927-39b1-4314-8227-f23a891e2cf1",
+    "data": [
+      {
+        "text": "se llama ",
+        "userDefined": false
+      },
+      {
+        "text": "Damian",
+        "alias": "friendName",
+        "meta": "@sys.given-name",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

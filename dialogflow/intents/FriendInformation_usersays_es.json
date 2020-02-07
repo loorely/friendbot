@@ -1,0 +1,51 @@
+[
+  {
+    "id": "0638c1dd-0050-448a-b6d1-1277fdba91a6",
+    "data": [
+      {
+        "text": "👍🏼",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2c4cea48-28ea-4e97-9d58-bc21813d45c6",
+    "data": [
+      {
+        "text": "Bueno",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9f92a3e0-b423-4b0a-bee5-c9c7738c154a",
+    "data": [
+      {
+        "text": "Dale",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1df09c56-7b8e-43c8-936b-08881b562a97",
+    "data": [
+      {
+        "text": "Si 😜",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

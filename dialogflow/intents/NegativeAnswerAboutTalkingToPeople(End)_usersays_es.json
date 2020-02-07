@@ -1,0 +1,50 @@
+[
+  {
+    "id": "863df75d-530b-4185-8448-badc9426771b",
+    "data": [
+      {
+        "text": "no",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0eb6d32b-4493-4e02-aebd-42fbe5ff7d0b",
+    "data": [
+      {
+        "text": "no quiero",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "91b314b8-f19d-498c-9303-1dc531c34003",
+    "data": [
+      {
+        "text": "tengo verguenza",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "6dab9986-49fa-4a1a-b3aa-556f5c0f3740",
+    "data": [
+      {
+        "text": "No me animo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

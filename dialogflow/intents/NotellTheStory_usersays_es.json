@@ -1,0 +1,43 @@
+[
+  {
+    "id": "66174959-341e-499b-aaf3-7fd05a1961c8",
+    "data": [
+      {
+        "text": "no le dije a ",
+        "userDefined": false
+      },
+      {
+        "text": "nadie",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4863a101-672f-4ad6-89ac-0ddb7d1ebf44",
+    "data": [
+      {
+        "text": "no lo he hecho",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "263860ca-1434-484f-827a-39f8698e0207",
+    "data": [
+      {
+        "text": "no",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

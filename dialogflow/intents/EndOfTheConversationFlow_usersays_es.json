@@ -1,0 +1,134 @@
+[
+  {
+    "id": "3cf25838-1f60-4106-8038-f78d15d08a62",
+    "data": [
+      {
+        "text": "No quiero hablar 😝",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ac30bf66-dcb6-4b77-89ad-9b3bc05ef910",
+    "data": [
+      {
+        "text": "No ",
+        "userDefined": false
+      },
+      {
+        "text": "hoy",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      },
+      {
+        "text": ", gracias.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e048e76d-ea34-4eee-ad79-f37a348b6cce",
+    "data": [
+      {
+        "text": "nos vemos",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "75ab005e-ca1d-40a4-874d-f52ec5bd9315",
+    "data": [
+      {
+        "text": "chau",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f24e780d-ca4d-478f-9342-3169cc07d70f",
+    "data": [
+      {
+        "text": "No 🙄",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "15dfdb89-021f-45e2-bf49-046b7593c9db",
+    "data": [
+      {
+        "text": "No gracias",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e68a1db8-29d1-4e3b-8ee7-6969227c353b",
+    "data": [
+      {
+        "text": "No quiero",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f15a4411-d689-4be6-aeb5-0c7a1c9090c9",
+    "data": [
+      {
+        "text": "No ",
+        "userDefined": false
+      },
+      {
+        "text": "hoy",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " gracias",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "712cb088-6ed3-42aa-b384-16354cb95ee4",
+    "data": [
+      {
+        "text": "Hoy",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " no, gracias",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

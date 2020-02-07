@@ -1,0 +1,88 @@
+{
+  "id": "08c39a94-73a0-424b-8150-2e33d15adcd5",
+  "name": "ViolentSituationPlace",
+  "auto": true,
+  "contexts": [
+    "place"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "descripcion",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "931023fa-6812-4ba6-86ce-8b5dce244997",
+          "required": false,
+          "dataType": "@familyLiveWith",
+          "name": "familyLiveWith",
+          "value": "$familyLiveWith",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "ecb9591a-88be-48b8-be22-d50d13a6220c",
+          "required": false,
+          "dataType": "@sys.last-name",
+          "name": "last-name",
+          "value": "$last-name",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "450e8e03-03ff-4ad6-b9ee-b91c9aee52a8",
+          "required": false,
+          "dataType": "@sys.time-period",
+          "name": "time-period",
+          "value": "$time-period",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "a7fbae99-f806-4656-8198-7f4c51559de4",
+          "required": false,
+          "dataType": "@Help",
+          "name": "Help",
+          "value": "$Help",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "condition": "",
+          "speech": "¿Cómo fue esa situación violenta? ¿Puedes contarme?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

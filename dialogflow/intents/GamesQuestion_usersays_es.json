@@ -1,0 +1,26 @@
+[
+  {
+    "id": "c33b626a-9c91-4f38-905f-95ea917ce41b",
+    "data": [
+      {
+        "text": "si",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "bd26fd1e-f52e-44e1-946e-aac50f96b762",
+    "data": [
+      {
+        "text": "si juego",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  }
+]

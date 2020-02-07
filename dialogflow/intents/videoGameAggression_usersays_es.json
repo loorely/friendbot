@@ -1,0 +1,108 @@
+[
+  {
+    "id": "46fff24e-e5ae-42fb-bdab-433bff6c0fc9",
+    "data": [
+      {
+        "text": "Le pediría que se vaya",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "10b37103-fd5d-41dd-a5da-935916da94c0",
+    "data": [
+      {
+        "text": "Le diría a mis ",
+        "userDefined": false
+      },
+      {
+        "text": "amigos",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " que no le hagan caso",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "51c9f916-7e77-458a-9a57-3bc3c1d3a6cb",
+    "data": [
+      {
+        "text": "Dejaría de ",
+        "userDefined": false
+      },
+      {
+        "text": "jugar",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0eb8a7c8-762a-409c-9e80-1a4bf12fb5ed",
+    "data": [
+      {
+        "text": "Decirle que no lo haga",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b6f078b5-7319-4efe-8da1-5a74cf7d00a6",
+    "data": [
+      {
+        "text": "ignorarlo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "dc722fa8-3a28-49f4-b105-e42c097b6135",
+    "data": [
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "No hacerle caso",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "33524a49-3036-4e3e-a468-87cff9ac5f0e",
+    "data": [
+      {
+        "text": "Excluirlo",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

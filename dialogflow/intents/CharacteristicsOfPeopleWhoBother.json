@@ -1,0 +1,67 @@
+{
+  "id": "6962db75-6d4f-4ebd-a89a-9d69a5c8cfb7",
+  "name": "CharacteristicsOfPeopleWhoBother",
+  "auto": true,
+  "contexts": [
+    "people"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "actividades",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "9ab2f9a0-78b5-4db9-b29f-db10766ff97a",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "any",
+          "value": "$any",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "es",
+          "condition": "",
+          "title": "¿Qué queres hacer?",
+          "replies": [
+            "Contar una historia",
+            "Aprender algo nuevo",
+            "Recibir ayuda",
+            "Más nada por hoy"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "es",
+          "condition": "",
+          "speech": "Eres un gran amigo, seguro podemos seguir conversando muchos días más y tratar de ayudarte con diferentes situaciones. Antes de despedirme por hoy quisiera saber si hay algo más que quiera hablar. Hay alguna historia que me quieras contar, aprender algo nuevo, o recibir ayuda en algo que necesites."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,46 @@
+[
+  {
+    "value": "parientes",
+    "synonyms": [
+      "parientes",
+      "tíos",
+      "sobrinos",
+      "abuelos",
+      "abuela",
+      "abuelo",
+      "tío",
+      "tio",
+      "tía",
+      "tia",
+      "primo",
+      "prima",
+      "sobrino",
+      "sobrina",
+      "hermano",
+      "hermana",
+      "hermanos"
+    ]
+  },
+  {
+    "value": "padres",
+    "synonyms": [
+      "padres",
+      "papá",
+      "mamá",
+      "mami",
+      "papi",
+      "papa",
+      "mama",
+      "papás"
+    ]
+  },
+  {
+    "value": "solo",
+    "synonyms": [
+      "solo",
+      "nadie",
+      "solito",
+      "solita"
+    ]
+  }
+]

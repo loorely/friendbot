@@ -1,0 +1,86 @@
+[
+  {
+    "id": "106d6cd6-2183-41e9-914b-52886265c181",
+    "data": [
+      {
+        "text": "algo que me da rabia",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9263ac92-5450-4443-bf6d-cf3526c2aeee",
+    "data": [
+      {
+        "text": "algo que me gusto",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1719d4c6-1021-4719-904a-6a7585064d41",
+    "data": [
+      {
+        "text": "algo que me da ",
+        "userDefined": false
+      },
+      {
+        "text": "vergüenza",
+        "alias": "averbal",
+        "meta": "@averbal",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "989609da-1c1e-4ea7-bc32-d2335924d802",
+    "data": [
+      {
+        "text": "algo triste",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f405d19d-2f31-48b1-a3e3-bfbc9f30fcc7",
+    "data": [
+      {
+        "text": "algo que me da miedo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d3af59d2-20de-4a07-90fb-29acfe8a508a",
+    "data": [
+      {
+        "text": "Contar algo ",
+        "userDefined": false
+      },
+      {
+        "text": "lindo",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

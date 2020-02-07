@@ -1,0 +1,122 @@
+[
+  {
+    "id": "2bbf6279-0ba2-4791-9b63-01ac4ec9aae4",
+    "data": [
+      {
+        "text": "En torneos escolares",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "15500249-6c2a-4427-89f7-c1f4dc4acea5",
+    "data": [
+      {
+        "text": "Otros",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "fa094d80-495a-471d-aea0-10bbb6397bd9",
+    "data": [
+      {
+        "text": "En una",
+        "alias": "time",
+        "meta": "@sys.time",
+        "userDefined": false
+      },
+      {
+        "text": " pijamada",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e0be714c-613d-49f4-8ff3-7477a8d58234",
+    "data": [
+      {
+        "text": "En un cumpleaños",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d269fb35-c1aa-4a78-91d9-1c4c0616c92f",
+    "data": [
+      {
+        "text": "En casa ",
+        "userDefined": false
+      },
+      {
+        "text": "de un",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "compañer",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "@",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e7f1b070-6bd0-44ad-a2fb-8bd2f1288bcb",
+    "data": [
+      {
+        "text": "En redes sociales",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "757cbc56-3071-4278-9b2d-fc8b832cb5a5",
+    "data": [
+      {
+        "text": "En la escuela",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2ee8c1d6-306f-4553-aa5b-6bec79d45362",
+    "data": [
+      {
+        "text": "En casa",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]
