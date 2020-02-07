@@ -34,11 +34,15 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
     // Get parameter from Dialogflow with the string to add to the database
 
     const givenName = agent.parameters.givenName;
-	
-    agent.add(`Encantado de conocerteee ` + senderId);
-	
    
+	
+    agent.add(`Encantado de conocerteee ` + givenName);
     agent.add(`Es importante que sepas que no soy un niño, soy una herramienta de ayuda para ti.`);
+    agent.add(`Antes de empezar, quiero saber si puedes hablar conmigo ahora?`);
+
+    agent.add(new Suggestion(`Si, puedo hablar.`));
+    agent.add(new Suggestion(`No hoy, gracias.`));
+
 
     // Get the database collection 'dialogflow' and document 'agent' and store
     // the document  {entry: "<value of database entry>"} in the 'agent' document
@@ -47,7 +51,7 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
       t.set(dialogflowAgentRef, { name: givenName });
       return Promise.resolve('Write complete');
     }).then(doc => {
-      agent.add(`Wrote "${givenName}" to the Firestore database.`);
+      //agent.add(`Wrote "${givenName}" to the Firestore database.`);
     }).catch(err => {
       console.log(`Error writing to Firestore: ${err}`);
       agent.add(`Failed to write "${givenName}" to the Firestore database.`);
